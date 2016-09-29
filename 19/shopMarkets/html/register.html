@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>用户注册</title>
+	<link rel="stylesheet" type="text/css" href="../css/register.css">
+	<script type="text/javascript" src = "../js/jquery-1.10.1.min.js"></script>
+	<script type="text/javascript" src = "../js/register.js"></script>
+	<script type="text/javascript" src = "../js/jquery.cookie.js"></script>
+</head>
+<body>
+	<!--*******************************header******************************* -->
+	<div id = "header">
+		<div class = "wrap"> 
+			<span class="logo"> 
+			 	<a href="#"><img src="http://images.s.cn/images/css/newlogo.png" /></a>
+			</span>
+		</div>
+	</div>
+	<!--*******************************AllWrapInside******************************* -->
+	<div id = "AllWrapInside">
+		<div class="wrap">
+			<div class = "c999">
+				<a href="../index.html">返回首页</a>
+			</div>
+			<div class = "td">
+				<div class = "RegisterWrap">
+					<div class="top">名鞋库用户注册</div>
+					<div class="center">
+						<div class = "left">
+							<div class="div1">	
+			                    <ul>
+		                        	<li class = "first1 pan">
+		                        		<span>用户名：</span>
+		                        		<input type="text" id="reg_user" placeholder="邮箱/手机" class="inpt">
+		                        		<span class="valierror">请输入正确的邮箱账号或手机!</span>
+		                        		<span class="error">可以使用</span>
+		                        	</li>     
+		                            <li class = "first2 pan">
+		                            	<span>密码：</span>
+		                            	<input type="password" id="reg_passwd" class="inpt">
+		                            	<span class = "error1">您输入的密码不能小于4个字符!</span>
+		                            	<span class ="valierror">您输入的密码不能大于20个字符</span>
+		                            </li>
+		                            <li class = "last1 pan">
+		                            	<span>确认密码：</span>
+		                            	<input type="password" id="reg_passwd_r" class="inpt">
+		                            	<span class="valierror">您两次输入的密码不一致!</span>
+		                            	</li>
+		                            <li class = "last pan">
+			                            <span>验证码：</span>
+			                            <input type="text" id="iptsingup" class="inpt">
+			                            <span class="valierror">验证码输入错误,请重新输入</span>
+			                            <span class= "div_test"></span>
+			                            <a href="#" class="button">换个图片</a>
+		                            </li>
+		                            <li class = "last2">
+		                           		<input type = "checkbox" checked = "checked">我已阅读并同意
+		                           	 	<a href="#">名鞋库会员注册协议。</a>
+		                           	</li> 			                     
+		                            <li class="last3">
+		                       			<input type="submit" value="注册新用户" class="actbtn cart-btn-next06">
+		                       		</li>				                         		                        
+			                    </ul>              
+							</div>
+						</div>
+						<div class = "right">
+							<div class = "div2">
+								<br />
+								<br />
+								<br />
+								<br />
+								<b>已经有名鞋库账号？</b><br>
+								<a href = "login.html" class = "returnlogin">现在登录</a>
+								<div class="ims">
+									<img src = "http://images.s.cn/images/css/singupmy.png"/>
+								</div>								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--*******************************foot******************************* -->
+	<div id = "foot">                            
+		<div class = "wrap">
+			<span>
+    			<a href="#">关于名鞋库</a> |    			
+    			<a href="#">联系名鞋库</a> |    
+    			<a href="#">人才招聘</a> | 
+    			<a href="#">免责条款 </a> | 
+    			<a href="#">法律声明</a> | 
+    			<a href="#">客户留言</a>  | 
+    			<a href="#">意见反馈</a> |  
+    			<a href="#">全部分类 </a>  |  
+    			<a href="#">友情链接</a>  | 
+    			<a href="#">鞋子尺码对照表</a>  
+    			<a href="#">问答</a><a href="#">咨询</a><a href="#">评论</a><a href="#">主题</a> | 
+    			<a href="#">鞋子品牌大全</a> |   
+    			<a href="#">商品大全</a>
+    		</span>
+    		Copyright © 2008-2014<s>s.cn</s>&nbsp;All Rights Reserved.&nbsp;&nbsp;&nbsp;      
+            <a href="#">闽ICP备08106896号</a>&nbsp;&nbsp;&nbsp;经营许可证闽B2-20110061    
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,647 @@
+*{ padding:0; margin:0;}
+a{ text-decoration:none;}
+ul,li{ list-style:none;}
+input{ border:0; background:none; float:left;}
+img{ border:0;}
+em,i{ font-style:normal;}
+#wrap{ width:1190px; margin:0 auto;}
+#wrap1{width:1600px;margin:0 auto;}
+#right{ float:right;}
+.left{float: left;}
+body{background: #f6f6f6;}
+/*--------------------header----------------------------*/
+#header{border-bottom:1px solid #e5e5e5; background:#eee;}
+#header .topnav {height: 21px;padding-top: 4px;position: relative;z-index: 10000;}	
+#header #right{ width:761px; height:16px;position: absolute;right: 0;top: 4px;}
+#header #right li{ float:left;border-right: 1px solid #d5d5d5;height: 16px;line-height: 16px;z-index: 20;}
+#header .a1{position: relative;}
+#header .a1 .drop{width:149px;height:81px;padding: 10px 16px 10px 15px; background:#fff;
+				border: 1px solid #ccc;position: absolute;top:15px;right:0;display: none;z-index: 1;}
+#header .a1 .drop #u1{width:67px;height:81px;float: left;}
+#header .a1 .drop #u1 li{width: 67px;line-height:26px;border-right:none;height:26px;border-bottom: 1px dashed #bdbdbd;display: block;}
+#header .a1 .drop #u2{width:67px;height:81px;float: right;}
+#header .a1 .drop #u1 li a,#header .a1 .drop #u2 li a{font-size:12px;display: block;padding: 0;} 
+#header .a1 .drop #u2 li{width: 67px;line-height:26px;border-right:none;height:26px;border-bottom: 1px dashed #bdbdbd;display: block;}
+#header .a1 .drop #u1 li:hover,#header .a1 .drop #u2 li:hover{background:#fff6d4;}
+#header .a2{position: relative;}
+#header .a2 div{width:206px;height:120px; background:#fff;padding:12px 12px 8px 12px;
+				border: 1px solid #ccc;position: absolute;top:15px;right:0;display: none;}
+#header .a2 div #u3{width:206px;height:120px;float: left;}
+#header .a2 div #u3 li{width:100px;height:120px;float: left;border-right:none;}
+#header .a2 div #u3 li a{padding: 0;}
+#header .a2 div #u3 li.a3{margin-right: 6px;}
+#header li a{color:#656565; padding:0 15px; display:block; float:left;font-size:12px;font-family: "宋体"}
+#header li .submit{ padding:0; margin:0; color:#fc6808;}
+#header li a:hover{color: red;text-decoration: underline;}
+#header li .register{ margin:0 15px 0 25px;color:#fc6808; }
+#header li.collection a{color:#333;}
+#header li.collection a:hover{color: red;text-decoration: underline;}
+#header li span{ background:url("../img/default_icon_bg.png") no-repeat; display:block;
+				 height:15px; float:right;}
+#header li #tip{ width:7px; height:4px; background-position:right -2px; margin-top:6px; margin-left:10px;  }
+#header li #phone{ float:left; background-position:right -12px; margin-right:5px; width:10px;}
+#header li #qq{ float:left; background-position:right -43px; margin-right:6px; width:15px;}
+#header li #contact{ height:16px; width:123px; background-position:-316px -65px; margin:0 14px;}
+/*-------------------------head------------------------------------*/
+#head{height: 77px}
+#wrap .logo{ width:421px; height:63px; display:block; background:url(../img/default_icon_bg.png) no-repeat left -1px; margin-top:10px;}
+#wrap .search{width:341px; margin-top:16px; margin-left:119px;}
+#wrap .search p span{ color:#cdcdcd;font-size: 12px}
+#wrap .search p .hot{margin-top: 9px;}
+#wrap .search .ser{ height:30px; }
+#wrap .search .txt{ height:26px; border:2px solid #d5d5d5; border-right:none; width:274px;text-indent: 3px}
+#wrap .search .btn{ width:65px; height:30px; text-align:center; background:#444;color:#fff;}
+#wrap .car{ height:34px; width:80px; display:block; float:right; background:url(../img/default_icon_bg.png) no-repeat left -64px; 
+	  margin-top:20px; cursor:pointer; padding-left:46px; color:#676767; line-height:34px; font-size:12px;}
+#wrap .car em{ color:#f00; margin:0 4px;}
+
+#wrap .search .hot a{ margin-left:8px;  color:#888;font-size: 12px}
+#wrap .search .hot a:hover{color: red;text-decoration: underline;}
+#wrap .car:hover{ background-position:left -98px;}
+/*-------------------------nav------------------------------------*/
+#nav{height:34px;background: #a21f25;}
+#nav #wrap li{display: block;}
+#nav li.nav_left{width: 190px;height:34px;font-weight: 700;line-height: 34px;
+	background-color: #b9363d;float: left;color: #fff;text-align: center;font-size: 14px;}
+#nav li.nav_center{width: 553px;height:34px;float: left;position: relative;}
+#nav li.nav_center a{background:url("../img/defaultnav_icon_bg.png") no-repeat 0 11px; color: #fff;display: block;padding:0 28px;font-size: 14px;height:34px;line-height: 34px;float: left;}
+#nav li.nav_center a.first{padding-left: 21px;}
+#nav li.nav_center .sport{width:668px;height: 302px;z-index: 10;position: absolute;top:34px;left:78px;background:#fff; box-shadow: 0 0 3px #ccc;
+    padding: 5px 0;display: none;}
+#nav li.nav_center .sport #q1{padding: 8px 0 13px; display: block;float: left; padding-left: 22px;
+    width: 162px;}
+#nav li.nav_center .sport #q1 li a{font-size:12px;color: #333;background: none;float: none;padding: 0;color: #555;
+    display: inline-block;height:24px;border:0;line-height: 24px;vertical-align: bottom; white-space: nowrap;}
+#nav li.nav_center .sport #q1 .first a{ display: block;height: 24px;line-height: 24px;
+    margin: 0;padding-bottom: 7px;font-size: 18px;color: #2a2a2a;font-weight: bold;}
+#nav li.nav_center .sport #q1 li a:hover{color: red;margin: 0;}  
+#nav li.nav_center .sport #q1 li.first a:hover{color:#2a2a2a;}
+
+#nav li.nav_center .sport #q2{padding: 8px 0 13px; display: block;float: left; width: 140px;}
+#nav li.nav_center .sport #q2 li a{font-size:12px;color: #333;background: none;float: none;padding: 0;color: #555;
+    display: inline-block;height:24px;border:0;line-height: 24px;vertical-align: bottom; white-space: nowrap;}
+#nav li.nav_center .sport #q2 .first a{ display: block;height: 24px;line-height: 24px;
+    margin: 0;padding-bottom: 7px;font-size: 18px;color: #2a2a2a;font-weight: bold;}
+#nav li.nav_center .sport #q2 li a:hover{color: red;margin: 0;}  
+#nav li.nav_center .sport #q2 li.first a:hover{color:#2a2a2a;}
+#nav li.nav_center .sport #q3{padding: 8px 0 13px; display: block;float: left; padding-left:22px; width: 255px;}
+#nav li.nav_center .sport #q3 h4{display: block;height: 24px;line-height: 24px;
+    margin: 0;padding-bottom: 7px;font-size: 18px;color: #2a2a2a;font-weight: bold;}
+/* #nav li.nav_center .sport #q3 a{float: left;height: 35px;margin: 0 3px 3px 0;width: 69px;} */
+#nav li.nav_center .clothing{width: 668px;height: 279px;z-index: 10;position: absolute;top:34px;left:190px;display: none;background:#fff; box-shadow: 0 0 3px #ccc; padding: 5px 0;}
+#nav li.nav_center .clothing #q4{padding: 8px 0 13px; display: block;float: left; padding-left: 22px;
+    width: 162px;}
+#nav li.nav_center .clothing #q4 li a{font-size:12px;color: #333;background: none;float: none;padding: 0;color: #555;
+    display: inline-block;height:24px;border:0;line-height: 24px;vertical-align: bottom; white-space: nowrap;}
+#nav li.nav_center .clothing #q4 .first a{ display: block;height: 24px;line-height: 24px;
+    margin: 0;padding-bottom: 7px;font-size: 18px;color: #2a2a2a;font-weight: bold;}
+#nav li.nav_center .clothing #q4 li a:hover{color: red;margin: 0;}  
+#nav li.nav_center .clothing #q4 li.first a:hover{color:#2a2a2a;}
+
+#nav li.nav_center .clothing #q5{padding: 8px 0 13px; display: block;float: left; width: 140px;}
+#nav li.nav_center .clothing #q5 li a{font-size:12px;color: #333;background: none;float: none;padding: 0;color: #555;
+    display: inline-block;height:24px;border:0;line-height: 24px;vertical-align: bottom; white-space: nowrap;}
+#nav li.nav_center .clothing #q5 .first a{ display: block;height: 24px;line-height: 24px;
+    margin: 0;padding-bottom: 7px;font-size: 18px;color: #2a2a2a;font-weight: bold;}
+#nav li.nav_center .clothing #q5 li a:hover{color: red;margin: 0;}  
+#nav li.nav_center .clothing #q5 li.first a:hover{color:#2a2a2a;}
+#nav li.nav_center .clothing #q6{padding: 8px 0 13px; display: block;float: left; padding-left:22px; width: 255px;}
+#nav li.nav_center .clothing #q6 h4{display: block;height: 24px;line-height: 24px;
+    margin: 0;padding-bottom: 7px;font-size: 18px;color: #2a2a2a;font-weight: bold;}
+#nav li.nav_center .brand1{width: 540px;height: 237px;z-index: 10;position: absolute;top:34px;left: 302px;display: none;background:#fff; box-shadow: 0 0 3px #ccc; padding: 5px 0;}
+#nav li.nav_center .brand1 #q7{padding: 8px 0 13px;float: left; display: block;padding-left: 22px;width: 162px;height: 106px;}
+#nav li.nav_center .brand1 #q7 li a{font-size:12px;color: #333;background: none;float: none;padding: 0;color: #555;
+    display: inline-block;height:24px;border:0;line-height: 24px;vertical-align: bottom; white-space: nowrap;}
+#nav li.nav_center .brand1 #q7 .first a{ display: block;height: 24px;line-height: 24px;
+    margin: 0;padding-bottom: 7px;font-size: 18px;color: #2a2a2a;font-weight: bold;}
+#nav li.nav_center .brand1 #q7 li a:hover{color: red;margin: 0;}  
+#nav li.nav_center .brand1 #q7 li.first a:hover{color:#2a2a2a;}
+#nav li.nav_center .brand1 #q9{padding: 8px 0 13px; display: block;float: left; width: 102px;}
+#nav li.nav_center .brand1 #q9 li a{font-size:12px;color: #333;background: none;float: none;padding: 0;color: #555;
+    display: inline-block;height:24px;border:0;line-height: 24px;vertical-align: bottom; white-space: nowrap;}
+#nav li.nav_center .brand1 #q9 .first a{ display: block;height: 24px;line-height: 24px;
+    margin: 0;padding-bottom: 7px;font-size: 18px;color: #2a2a2a;font-weight: bold;}
+#nav li.nav_center .brand1 #q9 li a:hover{color: red;margin: 0;}  
+#nav li.nav_center .brand1 #q9 li.first a:hover{color:#2a2a2a;}
+#nav li.nav_center .brand1 #q10{padding: 8px 0 13px; display: block;float: right;margin-top: -148px; padding-left:22px; width: 255px;}
+#nav li.nav_center .brand1 #q10 h4{display: block;height: 24px;line-height: 24px;
+    margin: 0;padding-bottom: 7px;font-size: 18px;color: #2a2a2a;font-weight: bold;}
+#nav li.nav_center .brand1 #q8{ display: block; padding-left: 22px;width: 162px;float: left;margin-top: -32px;}
+#nav li.nav_center .brand1 #q8 li a{font-size:12px;color: #333;background: none;float: none;padding: 0;color: #555;
+    display: inline-block;height:24px;border:0;line-height: 24px;vertical-align: bottom; white-space: nowrap;}
+#nav li.nav_center .brand1 #q8 .first a{ display: block;height: 24px;line-height: 24px;
+    margin: 0;padding-bottom: 7px;font-size: 18px;color: #2a2a2a;font-weight: bold;}
+#nav li.nav_center .brand1 #q8 li a:hover{color: red;margin: 0;}  
+#nav li.nav_center .brand1 #q8 li.first a:hover{color:#2a2a2a;}    
+#nav li.nav_center a:hover, #nav li.nav_center a.on{background: #444;border-left: 1px solid #a21f25;color: #fff;
+    margin-left: -1px;margin-right: -2px;padding-right: 30px;position: relative;}
+#nav li.nav_right{float:right;height:34px;width: 264px;position: relative;}
+#nav li.nav_right a{border-right: 1px solid #d18f92;color: #f6e9ea;float: left;font-size: 12px;height: 14px;
+    line-height: 14px;margin-top: 11px;padding: 0 10px;}
+#nav li.nav_right .spot{border: 0 none;display: block;margin: 0;padding: 0;position: absolute;top: -20px;left: -38px;
+} 
+#nav li.nav_right a.last{color: #fc0;}
+#nav li.nav_right a:hover{color: #fc0;text-decoration: underline;}
+
+/*-------------------------banner------------------------------------*/
+#banner{position: relative;width: 1600px;height: 385px;margin:0 auto;}
+#wrap1{position:relative;width: 1600px;height: 385px; overflow: hidden;}
+#imgList{position:relative;width:4800px;height:385px;z-index: 1;}
+#imgList li img{float: left;}
+#buttons{ position: absolute; bottom: 10px;left: 405px;z-index: 19;}
+#buttons div{background: #b5b5b5;border-radius: 50%;cursor: pointer;display: block;float: left;height: 14px;margin-right: 8px;overflow: hidden;
+    text-indent: -99px;width: 14px;}
+#buttons .on {background: #c80002;}
+#banner #wrap{position: relative;}
+#banner #wrap #n1{z-index:10;background-color: #1e1908;left: 0;position: absolute;top: -385px;width: 190px;height: 385px;}
+#banner #wrap #n2{height:385px;z-index:20;background: url("http://images.s.cn/images/sko/topic/2016/0401/ycxt(150x336).png") no-repeat right top;position: absolute;right:0;top:-385px;display: block;width: 150px;} 
+#banner #wrap #n2 .s1{background: rgba(0, 0, 0, 0);position: absolute;top:0;left: 0;width:150px;height: 192px;display: block;}
+#banner #wrap #n2 .s2{background: rgba(0, 0, 0, 0);position: absolute;top:192px;left: 0;width:150px;height: 192px;display: block;}
+#banner #wrap #n1 li {height: 43px;line-height: 43px;position: relative;text-indent: 42px;}
+#banner #wrap #n1 li b{margin-top:-43px;height: 43px;width:33px;display:block;z-index:10;line-height: 43px;position: relative;background: url(../img/navcats_icon.png) no-repeat left top; background-position:10px -48px;}
+#banner #wrap #n1 li a{color: #fff;font-size: 12px;}
+#banner #wrap #n1 li a:hover{text-decoration: underline;}
+#banner #wrap #n1 li i{border-color: #fff transparent;border-style: solid;border-width: 4px 4px 0; display: none;font-size: 0;height: 0;
+    line-height: 0;position: absolute;right: 10px;top: 20px;}
+#banner #wrap #n1 li:hover i{transform: rotateZ(-90deg);display: block;}  
+#banner #wrap .shoes{width: 280px;padding: 0 20px;height:385px;position: absolute;left:190px;top:-385px;background: #fbfbfb;z-index: 20;box-shadow: 1px 0 2px #978d8d inset; opacity: 0.95;
+    overflow: hidden;display: none;}
+#banner #wrap .shoes .runShoes{border-bottom: 1px solid #000;height: 30px;margin: 15px auto 0;position: relative;width: auto;}
+#banner #wrap .shoes .runShoes a{bottom: 0;color: #000;display: block;font-weight: 700;height: 20px;
+    left: 0;line-height: 20px;font-size:14px;padding-left: 45px;padding-top: 17px;position: absolute;text-align: left;width: 90px;font-size: }
+#banner #wrap .shoes .runShoes  .more{background:none repeat;color: #666; font-size: 12px; left: auto; padding: 0;position: absolute;
+    right: 0;top: 10px;width: 30px;}
+#banner #wrap .shoes p{ margin: 10px 0 0 -1px; overflow: hidden; width: auto;}
+#banner #wrap .shoes p a{font-size:12px;color: #888;display: inline-block; float: left; margin-top: 5px; padding: 0 8px; white-space: nowrap;}
+#banner #wrap .shoes p a:hover{color:#d01f47;text-decoration: underline;}
+#banner #wrap .shoes p a.on{color:#d01f47;}
+#banner #wrap .shoes .boyShoes{background:url("http://images.s.cn/images/css/lf_pop_icon.png") no-repeat left;background-position: -26px -33px;}
+#banner #wrap .shoes .girlShoes{background:url("http://images.s.cn/images/css/lf_pop_icon.png") no-repeat left;background-position: -26px -78px;}
+#banner #wrap .shoes .search a{padding: 0;}
+#banner #wrap .shoes .hot a{padding: 0;}
+
+#banner #wrap .wear{width: 280px;padding: 0 20px;height:385px;position: absolute;left:190px;top:-385px;background: #fbfbfb;z-index: 20;box-shadow: 1px 0 2px #978d8d inset; opacity: 0.95;
+    overflow: hidden;display: none;}
+#banner #wrap .wear .runWear{border-bottom: 1px solid #000;height: 30px;margin: 15px auto 0;position: relative;width: auto;}
+#banner #wrap .wear .runWear a{bottom: 0;color: #000;display: block;font-weight: 700;height: 20px;
+    left: 0;line-height: 20px;font-size:14px;padding-left: 45px;padding-top: 17px;position: absolute;text-align: left;width: 90px;font-size: }
+#banner #wrap .wear .runWear  .more{background:none repeat;color: #666; font-size: 12px; left: auto; padding: 0;position: absolute;
+    right: 0;top: 10px;width: 30px;}
+#banner #wrap .wear p{ margin: 10px 0 0 -1px; overflow: hidden; width: auto;}
+#banner #wrap .wear p a{font-size:12px;color: #888;display: inline-block; float: left; margin-top: 5px; padding: 0 8px; white-space: nowrap;}
+#banner #wrap .wear p a:hover{color:#1291cf;text-decoration: underline;}
+#banner #wrap .wear p a.on{color:#1291cf;}
+#banner #wrap .wear .boyWear{background:url("http://images.s.cn/images/css/lf_pop_icon.png") no-repeat left;background-position: -26px -125px;}
+#banner #wrap .wear .girlWear{background:url("http://images.s.cn/images/css/lf_pop_icon.png") no-repeat left;background-position: -26px -172px;}
+#banner #wrap .wear .search a{padding: 0;}
+
+#banner #wrap .run{width: 280px;padding: 0 20px;height:385px;position: absolute;left:190px;top:-385px;background: #fbfbfb;z-index: 20;box-shadow: 1px 0 2px #978d8d inset; opacity: 0.95;
+    overflow: hidden;display: none;}
+#banner #wrap .run .runrun{border-bottom: 1px solid #000;height: 30px;margin: 15px auto 0;position: relative;width: auto;}
+#banner #wrap .run .runrun a{bottom: 0;color: #000;display: block;font-weight: 700;height: 20px;
+    left: 0;line-height: 20px;font-size:14px;padding-left: 45px;padding-top: 17px;position: absolute;text-align: left;width: 90px;font-size: }
+#banner #wrap .run .runrun  .more{background:none repeat;color: #666; font-size: 12px; left: auto; padding: 0;position: absolute;
+    right: 0;top: 10px;width: 30px;}
+#banner #wrap .run p{ margin: 10px 0 0 -1px; overflow: hidden; width: auto;}
+#banner #wrap .run p a{font-size:12px;color: #888;display: inline-block; float: left; margin-top: 5px; padding: 0 8px; white-space: nowrap;}
+#banner #wrap .run p a:hover{color:#8b478b;text-decoration: underline;}
+#banner #wrap .run p a.on{color:#8b478b;}
+#banner #wrap .run .boyRun{background:url("http://images.s.cn/images/css/lf_pop_icon.png") no-repeat left;background-position: -26px -221px;}
+#banner #wrap .run .girlRun{background:url("http://images.s.cn/images/css/lf_pop_icon.png") no-repeat left;background-position: -26px -267px;}
+#banner #wrap .run .search a{padding: 0;}
+#banner #wrap .run .hot a{padding: 0;}
+
+#banner #wrap .basketball{width: 280px;padding: 0 20px;height:385px;position: absolute;left:190px;top:-385px;background: #fbfbfb;z-index: 20;box-shadow: 1px 0 2px #978d8d inset; opacity: 0.95;
+    overflow: hidden;display: none;}
+#banner #wrap .basketball .basket{border-bottom: 1px solid #000;height: 30px;margin: 15px auto 0;position: relative;width: auto;}
+#banner #wrap .basketball .basket a{bottom: 0;color: #000;display: block;font-weight: 700;height: 20px;
+    left: 0;line-height: 20px;font-size:14px;padding-left: 45px;padding-top: 17px;position: absolute;text-align: left;width: 90px;font-size: }
+#banner #wrap .basketball .basket .more{background:none repeat;color: #666; font-size: 12px; left: auto; padding: 0;position: absolute;
+    right: 0;top: 10px;width: 30px;}
+#banner #wrap .basketball p{ margin: 10px 0 0 -1px; overflow: hidden; width: auto;}
+#banner #wrap .basketball p a{font-size:12px;color: #888;display: inline-block; float: left; margin-top: 5px; padding: 0 8px; white-space: nowrap;}
+#banner #wrap .basketball p a:hover{color:#d8468d;text-decoration: underline;}
+#banner #wrap .basketball p a.on{color:#d8468d;}
+#banner #wrap .basketball .boyBasket{background:url("http://images.s.cn/images/css/lf_pop_icon.png") no-repeat left;background-position: -26px -316px;}
+#banner #wrap .basketball .search a{padding: 0;}
+#banner #wrap .basketball .star a{padding: 0;}
+
+#banner #wrap .football{width: 280px;padding: 0 20px;height:385px;position: absolute;left:190px;top:-385px;background: #fbfbfb;z-index: 20;box-shadow: 1px 0 2px #978d8d inset; opacity: 0.95;
+    overflow: hidden;display: none;}
+#banner #wrap .football .foot{border-bottom: 1px solid #000;height: 30px;margin: 15px auto 0;position: relative;width: auto;}
+#banner #wrap .football .foot a{bottom: 0;color: #000;display: block;font-weight: 700;height: 20px;
+    left: 0;line-height: 20px;font-size:14px;padding-left: 45px;padding-top: 17px;position: absolute;text-align: left;width: 90px;font-size: }
+#banner #wrap .football .foot .more{background:none repeat;color: #666; font-size: 12px; left: auto; padding: 0;position: absolute;
+    right: 0;top: 10px;width: 30px;}
+#banner #wrap .football p{ margin: 10px 0 0 -1px; overflow: hidden; width: auto;}
+#banner #wrap .football p a{font-size:12px;color: #888;display: inline-block; float: left; margin-top: 5px; padding: 0 8px; white-space: nowrap;}
+#banner #wrap .football p a:hover{color:#2062d3;text-decoration: underline;}
+#banner #wrap .football p a.on{color:#2062d3;}
+#banner #wrap .football .boyFoot{background:url("http://images.s.cn/images/css/lf_pop_icon.png") no-repeat left;background-position: -26px -363px;}
+#banner #wrap .football .star a{padding: 0;}
+#banner #wrap .football .studs a{padding: 0;}
+#banner #wrap .football .search a{padding: 0;}
+
+#banner #wrap .bag{width: 280px;padding: 0 20px;height:385px;position: absolute;left:190px;top:-385px;background: #fbfbfb;z-index: 20;box-shadow: 1px 0 2px #978d8d inset; opacity: 0.95;
+    overflow: hidden;display: none;}
+#banner #wrap .bag .bagbag{border-bottom: 1px solid #000;height: 30px;margin: 15px auto 0;position: relative;width: auto;}
+#banner #wrap .bag .bagbag a{bottom: 0;color: #000;display: block;font-weight: 700;height: 20px;
+    left: 0;line-height: 20px;font-size:14px;padding-left: 45px;padding-top: 17px;position: absolute;text-align: left;width: 90px;font-size: }
+#banner #wrap .bag .bagbag .more{background:none repeat;color: #666; font-size: 12px; left: auto; padding: 0;position: absolute;
+    right: 0;top: 10px;width: 30px;}
+#banner #wrap .bag p{ margin: 10px 0 0 -1px; overflow: hidden; width: auto;}
+#banner #wrap .bag p a{font-size:12px;color: #888;display: inline-block; float: left; margin-top: 5px; padding: 0 8px; white-space: nowrap;}
+#banner #wrap .bag p a:hover{color:#df3f4e;text-decoration: underline;}
+#banner #wrap .bag p a.on{color:#df3f4e;}
+#banner #wrap .bag .bagB{background:url("http://images.s.cn/images/css/lf_pop_icon.png") no-repeat left;background-position: -26px -411px;}
+#banner #wrap .bag .parts a{padding: 0;}
+#banner #wrap .bag .search a{padding: 0;}
+#banner #wrap .bag .studs a{padding: 0;}
+
+#banner #wrap .outdoor{width: 280px;padding: 0 20px;height:385px;position: absolute;left:190px;top:-385px;background: #fbfbfb;z-index: 20;box-shadow: 1px 0 2px #978d8d inset; opacity: 0.95;
+    overflow: hidden;display: none;}
+#banner #wrap .outdoor .out{border-bottom: 1px solid #000;height: 30px;margin: 15px auto 0;position: relative;width: auto;}
+#banner #wrap .outdoor .out a{bottom: 0;color: #000;display: block;font-weight: 700;height: 20px;
+    left: 0;line-height: 20px;font-size:14px;padding-left: 45px;padding-top: 17px;position: absolute;text-align: left;width: 90px;font-size: }
+#banner #wrap .outdoor .out .more{background:none repeat;color: #666; font-size: 12px; left: auto; padding: 0;position: absolute;
+    right: 0;top: 10px;width: 30px;}
+#banner #wrap .outdoor p{ margin: 10px 0 0 -1px; overflow: hidden; width: auto;}
+#banner #wrap .outdoor p a{font-size:12px;color: #888;display: inline-block; float: left; margin-top: 5px; padding: 0 8px; white-space: nowrap;}
+#banner #wrap .outdoor p a:hover{color:#f56a00;text-decoration: underline;}
+#banner #wrap .outdoor p a.on{color:#f56a00;}
+#banner #wrap .outdoor .outShoes{background:url("http://images.s.cn/images/css/lf_pop_icon.png") no-repeat left;background-position: -26px -463px;}
+#banner #wrap .outdoor .outWear{background:url("http://images.s.cn/images/css/lf_pop_icon.png") no-repeat left;background-position: -26px -502px;}
+#banner #wrap .outdoor .outstuds{background:url("http://images.s.cn/images/css/lf_pop_icon.png") no-repeat left;background-position: -26px -644px;}
+#banner #wrap .outdoor .search a{padding: 0;}
+/*-------------------------imglist------------------------------------*/
+#imglist #wrap{height:255px;}
+#imglist #wrap #i1{margin-top: 10px;}
+#imglist #wrap .on{border-bottom: 2px solid #000;font-weight: 700;}
+#imglist #wrap #i1 li{width:85px;color: #000;cursor: pointer;display: block;font-size: 12px;height: 24px;line-height: 24px;}
+#imglist #wrap .brand_yd{background: #fff;height: 214px;overflow: hidden;width:990px;margin-top: 5px;float: left;}
+#imglist #wrap .brand_yd a{background: url("http://images.s.cn/images/css/default_brandwall_bgwide.png") no-repeat;border: 1px solid #dfdfdf;display: block;float: left;height: 70px;margin: 0 -1px -1px 0;overflow: hidden;position: relative;
+    text-indent: -999px;width: 140px;}
+#imglist #wrap .brand_yd a span {cursor: pointer;display: block;height: 100%;left: 0;position: absolute;top: 0;transition: background-color 0.3s ease 0s;visibility: hidden; width: 100%;}
+#imglist #wrap .brand_yd a.nike {background-position: 41px -177px;}
+#imglist #wrap .brand_yd a.adidas{background-position:-106px -176px;}
+#imglist #wrap .brand_yd a.syc{background-position:-968px -331px;}
+#imglist #wrap .brand_yd a.neo{background-position:-1124px -331px;}
+#imglist #wrap .brand_yd a.nb{background-position:-794px -176px;}
+#imglist #wrap .brand_yd a.converse{background-position:42px -257px;}
+#imglist #wrap .brand_yd a.skq{background-position:-795px -259px;}
+#imglist #wrap .brand_yd a.puma{background-position:-1128px -176px;}
+#imglist #wrap .brand_yd a.reebok{background-position:-968px -10px;}
+#imglist #wrap .brand_yd a.asics{background-position:-629px -333px;}
+#imglist #wrap .brand_yd a.dc{background-position:-795px -481px;}
+#imglist #wrap .brand_yd a.kappa{background-position:-965px -176px;}
+#imglist #wrap .brand_yd a.anta{background-position: -447px -176px;}
+#imglist #wrap .brand_yd a.linging{background-position:-274px -177px;}
+#imglist #wrap .brand_yd a.vans{background-position:-108px -256px;}
+#imglist #wrap .brand_yd a.nba{background-position: -962px -481px;}
+#imglist #wrap .brand_yd a.troead{background-position:-798px -332px;}
+#imglist #wrap .brand_yd a.lantivy{background-position:-449px -100px;}
+#imglist #wrap .brand_yd a.nike_tx{background-position:-108px -481px;}
+#imglist #wrap .brand_yd a.adsics_tx{background-position:-277px -481px}
+#imglist #wrap .brand_yd a.disney{background-position:44px -481px;}
+#imglist #wrap .brand_yd a:hover span{background:#000;opacity: 0.1;visibility:visible; }
+#imglist #wrap .col_w190{padding-left: 10px;width: 190px;overflow: hidden;float: left;background: #fff;height: 214px;margin-top: 5px;}
+#imglist #wrap .col_w190 .top{border: 1px solid #f1f1f1;height: 60px;overflow: hidden;padding: 3px 8px;}
+#imglist #wrap .col_w190 .top li{height: 20px;line-height: 20px;overflow: hidden;padding-left: 10px;white-space: nowrap;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAMAAABh9kWNAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAGUExURZeWlgAAAGNp8/wAAAAOSURBVHjaYmBAAIAAAwAADAABZBSHewAAAABJRU5ErkJggg==) no-repeat 0 50%;}
+#imglist #wrap .col_w190 .top li a{color: #777;font-size: 12px;}
+#imglist #wrap .col_w190 .top li a.on1{color: red;}
+#imglist #wrap .col_w190 .top li a:hover{color: red;text-decoration: underline;}
+#imglist #wrap .col_w190 .middle{margin: 0;padding:0;}
+#imglist #wrap .col_w190 .down{width:184px;border: 1px solid #eee;height: 104px;overflow: hidden;padding: 1px;position: relative;}
+#imglist #wrap .col_w190 .down .butn{bottom: 10px;position: absolute;right: 10px;z-index: 19;}
+#imglist #wrap .col_w190 .down .butn div{ text-indent: -99px;background: #000 ;cursor: pointer;float: left;display:block;height: 8px;line-height: 10em;margin-left: 5px;opacity: 0.5;overflow: hidden;width: 8px;}
+#imglist #wrap .col_w190 .down .List{position:relative;width:364px;height:104px;z-index: 1;}
+#imglist #wrap .col_w190 .down .List li img{float: left;width:182px;}
+#imglist #wrap .col_w190 .down .butn .on2{background: #c00;height: 10px;margin-top:-1px;opacity: 1;width: 10px;}
+/*-------------------------Img------------------------------------*/
+#Img #wrap{height: 300px; background: #fff;}
+#Img #wrap a{height:290px; border-color: #fff;margin-right:10px;box-shadow: 0 1px 5px #ccc;display: block;float: left;overflow: hidden;cursor: pointer;}
+#Img #wrap a:hover img{margin:-3px;}
+#Img #wrap a img{height: 290px;width: 230px;}
+#Img #wrap a:hover{color: red;border: 3px solid #c00;}
+/*-------------------------ImgMore------------------------------------*/
+#ImgMore #wrap{height: 438px;margin:15px auto 0;border-right: medium none;}
+#ImgMore #wrap #I1{width:191px;float:left;height: 438px; }
+#ImgMore #wrap #I1 a{border:0;margin:0;padding:0;}
+#ImgMore #wrap #I1 a img{display: block;}
+#ImgMore #wrap #I2{height:426px;width: 401px;float: left;}
+#ImgMore #wrap #I2 a{display: block;height: 426px;overflow: hidden;width: 401px;float: left;}
+#ImgMore #wrap #I2 img{transform: translateX(2%);transition: all 0.3s ease 0s;}
+#ImgMore #wrap #I3{height:435px;width: 597px;float: left;}
+#ImgMore #wrap #I3 a{border-right: 1px solid #d2d2d2;display: block;float: left;height: 181px;overflow: hidden;position: relative;
+   width: 198px;}
+#ImgMore #wrap #I3 img{cursor: pointer;display: block;transform: translateX(2%);transition: all 0.3s ease 0s;vertical-align: bottom}
+#ImgMore #wrap #I3 .sp_b{display:block;border-bottom: 1px solid #d2d2d2;height: 248px;width: 296px;float: left;}
+#ImgMore #wrap #I3 .rb {border-right: none;}
+#ImgMore #wrap #I3 .sp_a {height: 186px;width: 296px;}
+/*-------------------------ImgMore1------------------------------------*/
+#ImgMore1 #wrap{height:426px;margin:15px auto 0;border-right: medium none;}
+#ImgMore1 #wrap #I4{width:191px;float:left;height: 426px;}
+#ImgMore1 #wrap #I4 .brand{background: #fff;overflow: hidden;width: 190px;}
+#ImgMore1 #wrap #I4 .brand a {background:url("http://images.s.cn/images/css/201409101646002.png") no-repeat;border-bottom: 1px dashed #ddd;border-right: 1px dashed #ddd;float: left;height: 40px;line-height: 30em;
+margin: 0 -1px -1px 0;overflow: hidden;width: 95px;}
+#ImgMore1 #wrap #I4 .brand a.nike{background-position: 5px 2px;}
+#ImgMore1 #wrap #I4 .brand a.adidas{background-position: 0 -152px;}
+#ImgMore1 #wrap #I4 .brand a.origis{background-position: 0 -760px;}
+#ImgMore1 #wrap #I4 .brand a.neo{ background-position: 0 -798px;}
+#ImgMore1 #wrap #I4 .brand a.nb{ background-position: 0 -76px;}
+#ImgMore1 #wrap #I4 .brand a.conversef{background-position: 0 -1257px;}
+#ImgMore1 #wrap #I4 .brand a.puma{background-position: 0 -228px;}
+#ImgMore1 #wrap #I4 .brand a.reebok{ background-position: 0 -893px;}
+#ImgMore1 #wrap #I4 .brand a.vans{ background-position: 0 -494px;}
+#ImgMore1 #wrap #I4 .brand a.asics{background-position: 0 -266px;}
+#ImgMore1 #wrap #I4 .brand a.dc{background-position: -2px -1556px;}
+#ImgMore1 #wrap #I4 .brand a:hover{background: #666;border-color: #666;color: #fff;font-size: 14px;font-weight: 700;line-height: 38px;position: relative;text-align: center;}
+#ImgMore1 #wrap #I4 .leftcat{border-top: 1px dashed #ededed;width: 191px;background: #fff;box-shadow: none;overflow: hidden;position: static;}
+#ImgMore1 #wrap #I4 .leftcat ul{background: #fff;float: left;padding: 6px 0 4px 8px;width: 87px;}
+#ImgMore1 #wrap #I4 .leftcat ul li{line-height: 26px;}
+#ImgMore1 #wrap #I4 .leftcat ul li a{color: #3e3e3e;font-family: Microsoft Yahei;font-size: 13px;font-weight: 700}
+#ImgMore1 #wrap #I4 .leftcat ul li a:hover{text-decoration: underline;}
+#ImgMore1 #wrap #I5{height:426px;width: 401px;float: left;}
+#ImgMore1 #wrap #I5 a{display: block;height: 426px;overflow: hidden;width: 401px;float: left;}
+#ImgMore1 #wrap #I5 img{transform: translateX(2%);transition: all 0.3s ease 0s;}
+#ImgMore1 #wrap #I6{height:426px;width: 399px;float: left;}
+#ImgMore1 #wrap #I6 a{border-right: 1px solid #d2d2d2;display: block;float: left;height: 181px;overflow: hidden;position: relative;width: 198px;}
+#ImgMore1 #wrap #I6 .b {border-bottom: 1px solid #d2d2d2;height: 244px;}
+#ImgMore1 #wrap #I6 img{cursor: pointer;display: block;transform: translateX(2%);transition: all 0.3s ease 0s;} 
+#ImgMore1 #wrap #I6 .rb {border-right: none;}
+#ImgMore1 #wrap #I7{float:left;overflow: hidden;width: 196px;border-left: 1px solid #d2d2d2;height: 426px;}
+#ImgMore1 #wrap #I7 a{display: block;height: 244px;float: left;overflow: hidden;width: 196px;}
+#ImgMore1 #wrap #I7 .b{border-bottom: 1px solid #d2d2d2;height: 244px;display: block;}
+/*-------------------------ImgMore2------------------------------------*/
+#ImgMore2 #wrap{height:426px;margin:15px auto 0;border-right: medium none;}
+#ImgMore2 #wrap #I8{width:191px;float:left;height: 426px;}
+#ImgMore2 #wrap #I8 .brand{background: #fff;overflow: hidden;width: 190px;}
+#ImgMore2 #wrap #I8 .brand a {background:url("http://images.s.cn/images/css/201409101646002.png") no-repeat;border-bottom: 1px dashed #ddd;border-right: 1px dashed #ddd;float: left;height: 40px;line-height: 30em;
+margin: 0 -1px -1px 0;overflow: hidden;width: 95px;}
+#ImgMore2 #wrap #I8 .brand a.nike{background-position: 5px 2px;}
+#ImgMore2 #wrap #I8 .brand a.adidas{background-position: 0 -152px;}
+#ImgMore2 #wrap #I8 .brand a.origis{background-position: 0 -760px;}
+#ImgMore2 #wrap #I8 .brand a.neo{ background-position: 0 -798px;}
+#ImgMore2 #wrap #I8 .brand a.nb{ background-position: 0 -76px;}
+#ImgMore2 #wrap #I8 .brand a.conversef{background-position: 0 -1257px;}
+#ImgMore2 #wrap #I8 .brand a.puma{background-position: 0 -228px;}
+#ImgMore2 #wrap #I8 .brand a.kappa{background-position:0 -342px;}
+#ImgMore2 #wrap #I8 .brand a.lining{background-position:0 -304px;}
+#ImgMore2 #wrap #I8 .brand a.vans{background-position: 0 -494px;}
+#ImgMore2 #wrap #I8 .brand a:hover{background: #666;border-color: #666;color: #fff;font-size: 14px;font-weight: 700;line-height: 38px;position: relative;text-align: center;}
+#ImgMore2 #wrap #I8 .leftcat{border-top: 1px dashed #ededed;width: 191px;background: #fff;box-shadow: none;overflow: hidden;position: static;}
+#ImgMore2 #wrap #I8 .leftcat ul{background: #fff;float: left;padding: 6px 0 4px 8px;width: 87px;}
+#ImgMore2 #wrap #I8 .leftcat ul li{line-height: 26px;}
+#ImgMore2 #wrap #I8 .leftcat ul li a{color: #3e3e3e;font-family: Microsoft Yahei;font-size: 13px;font-weight: 700}
+#ImgMore2 #wrap #I8 .leftcat ul li a:hover{text-decoration: underline;}
+#ImgMore2 #wrap #I9{height:426px;width: 401px;float: left;}
+#ImgMore2 #wrap #I9 a{display: block;height: 426px;overflow: hidden;width: 401px;float: left;}
+#ImgMore2 #wrap #I9 img{transform: translateX(2%);transition: all 0.3s ease 0s;}
+#ImgMore2 #wrap #I10{height:426px;width: 399px;float: left;}
+#ImgMore2 #wrap #I10 a{border-right: 1px solid #d2d2d2;display: block;float: left;height: 181px;overflow: hidden;position: relative;width: 198px;}
+#ImgMore2 #wrap #I10 .b {border-bottom: 1px solid #d2d2d2;height: 244px;}
+#ImgMore2 #wrap #I10 img{cursor: pointer;display: block;transform: translateX(2%);transition: all 0.3s ease 0s;} 
+#ImgMore2 #wrap #I10 .rb {border-right: none;}
+#ImgMore2 #wrap #I11{float:left;overflow: hidden;width: 196px;border-left: 1px solid #d2d2d2;height: 426px;}
+#ImgMore2 #wrap #I11 a{display: block;height: 244px;float: left;overflow: hidden;width: 196px;}
+#ImgMore2 #wrap #I11 .b{border-bottom: 1px solid #d2d2d2;height: 244px;display: block;}
+
+/*-------------------------ImgMore3------------------------------------*/
+#ImgMore3 #wrap{height:426px;margin:15px auto 0;border-right: medium none;}
+#ImgMore3 #wrap #I12{width:191px;float:left;height: 426px;background: #fff;}
+#ImgMore3 #wrap #I12 .brand{background: #fff;overflow: hidden;width: 190px;}
+#ImgMore3 #wrap #I12 .brand a {background:url("http://images.s.cn/images/css/201409101646002.png") no-repeat;border-bottom: 1px dashed #ddd;border-right: 1px dashed #ddd;float: left;height: 40px;line-height: 30em;
+margin: 0 -1px -1px 0;overflow: hidden;width: 95px;}
+#ImgMore3 #wrap #I12 .brand a.nike{background-position: 5px 2px;}
+#ImgMore3 #wrap #I12 .brand a.adidas{background-position: 0 -152px;}
+#ImgMore3 #wrap #I12 .brand a.nb{background-position: 0 -76px;}
+#ImgMore3 #wrap #I12 .brand a.asics{background-position:0 -266px;}
+#ImgMore3 #wrap #I12 .brand a.puma{background-position: 0 -228px;}
+#ImgMore3 #wrap #I12 .brand a.reebok{background-position: 0 -893px;}
+#ImgMore3 #wrap #I12 .brand a.kappa{background-position:0 -342px;}
+#ImgMore3 #wrap #I12 .brand a.lining{background-position:0 -304px;}
+#ImgMore3 #wrap #I12 .brand a.anta{background-position:0 -38px;}
+#ImgMore3 #wrap #I12 .brand a:hover{background: #666;border-color: #666;color: #fff;font-size: 14px;font-weight: 700;line-height: 38px;position: relative;text-align: center;}
+#ImgMore3 #wrap #I12 .leftcat{border-top: 1px dashed #ededed;width: 191px;background: #fff;box-shadow: none;overflow: hidden;position: static;}
+#ImgMore3 #wrap #I12 .leftcat ul{background: #fff;float: left;padding: 6px 0 4px 8px;width: 87px;}
+#ImgMore3 #wrap #I12 .leftcat ul li{line-height: 26px;}
+#ImgMore3 #wrap #I12 .leftcat ul li a{color: #3e3e3e;font-family: Microsoft Yahei;font-size: 13px;font-weight: 700}
+#ImgMore3 #wrap #I12 .leftcat ul li a:hover{text-decoration: underline;}
+#ImgMore3 #wrap #I13{height:426px;width: 401px;float: left;}
+#ImgMore3 #wrap #I13 a{display: block;height: 426px;overflow: hidden;width: 401px;float: left;}
+#ImgMore3 #wrap #I13 img{transform: translateX(2%);transition: all 0.3s ease 0s;}
+#ImgMore3 #wrap #I14{height:426px;width: 399px;float: left;}
+#ImgMore3 #wrap #I14 a{border-right: 1px solid #d2d2d2;display: block;float: left;height: 181px;overflow: hidden;position: relative;width: 198px;}
+#ImgMore3 #wrap #I14 .b {border-bottom: 1px solid #d2d2d2;height: 244px;}
+#ImgMore3 #wrap #I14 img{cursor: pointer;display: block;transform: translateX(2%);transition: all 0.3s ease 0s;} 
+#ImgMore3 #wrap #I14 .rb {border-right: none;}
+#ImgMore3 #wrap #I15{float:left;overflow: hidden;width: 196px;border-left: 1px solid #d2d2d2;height: 426px;}
+#ImgMore3 #wrap #I15 a{display: block;height: 244px;float: left;overflow: hidden;width: 196px;}
+#ImgMore3 #wrap #I15 .b{border-bottom: 1px solid #d2d2d2;height: 244px;display: block;}
+/*-------------------------ImgMore4------------------------------------*/
+#ImgMore4 #wrap{height:426px;margin:15px auto 0;border-right: medium none;}
+#ImgMore4 #wrap #I16{width:191px;float:left;height: 426px;background: #fff;}
+#ImgMore4 #wrap #I16 .brand{background: #fff;overflow: hidden;width: 190px;}
+#ImgMore4 #wrap #I16 .brand a {background:url("http://images.s.cn/images/css/201409101646002.png") no-repeat;border-bottom: 1px dashed #ddd;border-right: 1px dashed #ddd;float: left;height: 40px;line-height: 30em;
+margin: 0 -1px -1px 0;overflow: hidden;width: 95px;}
+#ImgMore4 #wrap #I16 .brand a.nike{background-position: 5px 2px;}
+#ImgMore4 #wrap #I16 .brand a.adidas{background-position: 0 -152px;}
+#ImgMore4 #wrap #I16 .brand a.reebok{background-position: 0 -893px;}
+#ImgMore4 #wrap #I16 .brand a.lining{background-position:0 -304px;}
+#ImgMore4 #wrap #I16 .brand a.anta{background-position:0 -38px;}
+#ImgMore4 #wrap #I16 .brand a:hover{background: #666;border-color: #666;color: #fff;font-size: 14px;font-weight: 700;line-height: 38px;position: relative;text-align: center;}
+#ImgMore4 #wrap #I16 .leftcat{border-top: 1px dashed #ededed;width: 191px;background: #fff;box-shadow: none;overflow: hidden;position: static;}
+#ImgMore4 #wrap #I16 .leftcat ul{background: #fff;float: left;padding: 6px 0 4px 8px;width: 87px;}
+#ImgMore4 #wrap #I16 .leftcat ul li{line-height: 26px;}
+#ImgMore4 #wrap #I16 .leftcat ul li a{color: #3e3e3e;font-family: Microsoft Yahei;font-size: 13px;font-weight: 700}
+#ImgMore4 #wrap #I16 .leftcat ul li a:hover{text-decoration: underline;}
+#ImgMore4 #wrap #I17{height:426px;width: 401px;float: left;}
+#ImgMore4 #wrap #I17 a{display: block;height: 426px;overflow: hidden;width: 401px;float: left;}
+#ImgMore4 #wrap #I17 img{transform: translateX(2%);transition: all 0.3s ease 0s;}
+#ImgMore4 #wrap #I18{height:426px;width: 399px;float: left;}
+#ImgMore4 #wrap #I18 a{border-right: 1px solid #d2d2d2;display: block;float: left;height: 181px;overflow: hidden;position: relative;width: 198px;}
+#ImgMore4 #wrap #I18 .b {border-bottom: 1px solid #d2d2d2;height: 244px;}
+#ImgMore4 #wrap #I18 img{cursor: pointer;display: block;transform: translateX(2%);transition: all 0.3s ease 0s;} 
+#ImgMore4 #wrap #I18 .rb {border-right: none;}
+#ImgMore4 #wrap #I19{float:left;overflow: hidden;width: 196px;border-left: 1px solid #d2d2d2;height: 426px;}
+#ImgMore4 #wrap #I19 a{display: block;height: 244px;float: left;overflow: hidden;width: 196px;}
+#ImgMore4 #wrap #I19 .b{border-bottom: 1px solid #d2d2d2;height: 244px;display: block;}
+/*-------------------------ImgMore5------------------------------------*/
+#ImgMore5 #wrap{height:426px;margin:15px auto 0;border-right: medium none;}
+#ImgMore5 #wrap #I20{width:191px;float:left;height: 426px;background: #fff;}
+#ImgMore5 #wrap #I20 .brand{background: #fff;overflow: hidden;width: 190px;}
+#ImgMore5 #wrap #I20 .brand a {background:url("http://images.s.cn/images/css/201409101646002.png") no-repeat;border-bottom: 1px dashed #ddd;border-right: 1px dashed #ddd;float: left;height: 40px;line-height: 30em;
+margin: 0 -1px -1px 0;overflow: hidden;width: 95px;}
+#ImgMore5 #wrap #I20 .brand a.nike{background-position: 5px 2px;}
+#ImgMore5 #wrap #I20 .brand a.adidas{background-position: 0 -152px;}
+#ImgMore5 #wrap #I20 .brand a.conversef{background-position:0 -1257px;}
+#ImgMore5 #wrap #I20 .brand a.neo{background-position:0 -798px;}
+#ImgMore5 #wrap #I20 .brand a.kappa{background-position:0 -342px;}
+#ImgMore5 #wrap #I20 .brand a.lining{background-position:0 -304px;}
+#ImgMore5 #wrap #I20 .brand a.puma{background-position:0 -228px;}
+#ImgMore5 #wrap #I20 .brand a:hover{background: #666;border-color: #666;color: #fff;font-size: 14px;font-weight: 700;line-height: 38px;position: relative;text-align: center;}
+#ImgMore5 #wrap #I20 .leftcat{border-top: 1px dashed #ededed;width: 191px;background: #fff;box-shadow: none;overflow: hidden;position: static;}
+#ImgMore5 #wrap #I20 .leftcat ul{background: #fff;float: left;padding: 6px 0 4px 8px;width: 87px;}
+#ImgMore5 #wrap #I20 .leftcat ul li{line-height: 26px;}
+#ImgMore5 #wrap #I20 .leftcat ul li a{color: #3e3e3e;font-family: Microsoft Yahei;font-size: 13px;font-weight: 700}
+#ImgMore5 #wrap #I20 .leftcat ul li a:hover{text-decoration: underline;}
+#ImgMore5 #wrap #I21{height:426px;width: 401px;float: left;}
+#ImgMore5 #wrap #I21 a{display: block;height: 426px;overflow: hidden;width: 401px;float: left;}
+#ImgMore5 #wrap #I21 img{transform: translateX(2%);transition: all 0.3s ease 0s;}
+#ImgMore5 #wrap #I22{height:426px;width: 399px;float: left;}
+#ImgMore5 #wrap #I22 a{border-right: 1px solid #d2d2d2;display: block;float: left;height: 181px;overflow: hidden;position: relative;width: 198px;}
+#ImgMore5 #wrap #I22 .b {border-bottom: 1px solid #d2d2d2;height: 244px;}
+#ImgMore5 #wrap #I22 img{cursor: pointer;display: block;transform: translateX(2%);transition: all 0.3s ease 0s;} 
+#ImgMore5 #wrap #I22 .rb {border-right: none;}
+#ImgMore5 #wrap #I23{float:left;overflow: hidden;width: 196px;border-left: 1px solid #d2d2d2;height: 426px;}
+#ImgMore5 #wrap #I23 a{display: block;height: 244px;float: left;overflow: hidden;width: 196px;}
+#ImgMore5 #wrap #I23 .b{border-bottom: 1px solid #d2d2d2;height: 244px;display: block;}
+/*-------------------------ImgMore6------------------------------------*/
+#ImgMore6 #wrap{height:426px;margin:15px auto 0;border-right: medium none;}
+#ImgMore6 #wrap #I24{width:191px;float:left;height: 426px;background: #fff;}
+#ImgMore6 #wrap #I24 .brand{background: #fff;overflow: hidden;width: 190px;}
+#ImgMore6 #wrap #I24 .brand a {background:url("http://images.s.cn/images/css/201409101646002.png") no-repeat;border-bottom: 1px dashed #ddd;border-right: 1px dashed #ddd;float: left;height: 40px;line-height: 30em;
+margin: 0 -1px -1px 0;overflow: hidden;width: 95px;}
+#ImgMore6 #wrap #I24 .brand a.anta{background-position: 0 -38px;}
+#ImgMore6 #wrap #I24 .brand a.adidas{background-position: 0 -152px;}
+#ImgMore6 #wrap #I24 .brand a.toread{background-position:0 -722px;}
+#ImgMore6 #wrap #I24 .brand a:hover{background: #666;border-color: #666;color: #fff;font-size: 14px;font-weight: 700;line-height: 38px;position: relative;text-align: center;}
+#ImgMore6 #wrap #I24 .leftcat{border-top: 1px dashed #ededed;width: 191px;background: #fff;box-shadow: none;overflow: hidden;position: static;}
+#ImgMore6 #wrap #I24 .leftcat ul{background: #fff;float: left;padding: 6px 0 4px 8px;width: 87px;}
+#ImgMore6 #wrap #I24 .leftcat ul li{line-height: 26px;}
+#ImgMore6 #wrap #I24 .leftcat ul li a{color: #3e3e3e;font-family: Microsoft Yahei;font-size: 13px;font-weight: 700}
+#ImgMore6 #wrap #I24 .leftcat ul li a:hover{text-decoration: underline;}
+#ImgMore6 #wrap #I25{height:426px;width: 401px;float: left;}
+#ImgMore6 #wrap #I25 a{display: block;height: 426px;overflow: hidden;width: 401px;float: left;}
+#ImgMore6 #wrap #I25 img{transform: translateX(2%);transition: all 0.3s ease 0s;}
+#ImgMore6 #wrap #I26{height:426px;width: 399px;float: left;}
+#ImgMore6 #wrap #I26 a{border-right: 1px solid #d2d2d2;display: block;float: left;height: 181px;overflow: hidden;position: relative;width: 198px;}
+#ImgMore6 #wrap #I26 .b {border-bottom: 1px solid #d2d2d2;height: 244px;}
+#ImgMore6 #wrap #I26 img{cursor: pointer;display: block;transform: translateX(2%);transition: all 0.3s ease 0s;} 
+#ImgMore6 #wrap #I26 .rb {border-right: none;}
+#ImgMore6 #wrap #I27{float:left;overflow: hidden;width: 196px;border-left: 1px solid #d2d2d2;height: 426px;}
+#ImgMore6 #wrap #I27 a{display: block;height: 244px;float: left;overflow: hidden;width: 196px;}
+#ImgMore6 #wrap #I27 .b{border-bottom: 1px solid #d2d2d2;height: 244px;display: block;}
+/*-------------------------ImgMore7------------------------------------*/
+#ImgMore7 #wrap{height:426px;margin:15px auto 0;border-right: medium none;}
+#ImgMore7 #wrap #I28{width:191px;float:left;height: 426px;background: #fff;}
+#ImgMore7 #wrap #I28 .brand{background: #fff;overflow: hidden;width: 190px;}
+#ImgMore7 #wrap #I28 .brand a {background:url("http://images.s.cn/images/css/201409101646002.png") no-repeat;border-bottom: 1px dashed #ddd;border-right: 1px dashed #ddd;float: left;height: 40px;line-height: 30em;
+margin: 0 -1px -1px 0;overflow: hidden;width: 95px;}
+#ImgMore7 #wrap #I28 .brand a.stsat{background-position:0 -686px; }
+#ImgMore7 #wrap #I28 .brand a.lantivy{background-position: 0 -608px;}
+#ImgMore7 #wrap #I28 .brand a.aokang{background-position:0 -532px;}
+#ImgMore7 #wrap #I28 .brand a.skq{background-position:0 -847px;}
+#ImgMore7 #wrap #I28 .brand a:hover{background: #666;border-color: #666;color: #fff;font-size: 14px;font-weight: 700;line-height: 38px;position: relative;text-align: center;}
+#ImgMore7 #wrap #I28 .leftcat{border-top: 1px dashed #ededed;width: 191px;background: #fff;box-shadow: none;overflow: hidden;position: static;}
+#ImgMore7 #wrap #I28 .leftcat ul{background: #fff;float: left;padding: 6px 0 4px 8px;width: 87px;}
+#ImgMore7 #wrap #I28 .leftcat ul li{line-height: 26px;}
+#ImgMore7 #wrap #I28 .leftcat ul li a{color: #3e3e3e;font-family: Microsoft Yahei;font-size: 13px;font-weight: 700}
+#ImgMore7 #wrap #I28 .leftcat ul li a:hover{text-decoration: underline;}
+#ImgMore7 #wrap #I29{height:426px;width: 401px;float: left;}
+#ImgMore7 #wrap #I29 a{display: block;height: 426px;overflow: hidden;width: 401px;float: left;}
+#ImgMore7 #wrap #I29 img{transform: translateX(2%);transition: all 0.3s ease 0s;}
+#ImgMore7 #wrap #I30{height:426px;width: 399px;float: left;}
+#ImgMore7 #wrap #I30 a{border-right: 1px solid #d2d2d2;display: block;float: left;height: 181px;overflow: hidden;position: relative;width: 198px;}
+#ImgMore7 #wrap #I30 .b {border-bottom: 1px solid #d2d2d2;height: 244px;}
+#ImgMore7 #wrap #I30 img{cursor: pointer;display: block;transform: translateX(2%);transition: all 0.3s ease 0s;} 
+#ImgMore7 #wrap #I30 .rb {border-right: none;}
+#ImgMore7 #wrap #I31{float:left;overflow: hidden;width: 196px;border-left: 1px solid #d2d2d2;height: 426px;}
+#ImgMore7 #wrap #I31 a{display: block;height: 244px;float: left;overflow: hidden;width: 196px;}
+#ImgMore7 #wrap #I31 .b{border-bottom: 1px solid #d2d2d2;height: 244px;display: block;}
+/*-------------------------ImgMore8------------------------------------*/
+#ImgMore8 #wrap{height:426px;margin:15px auto 0;border-right: medium none;}
+#ImgMore8 #wrap #I32{width:191px;float:left;height: 426px;background: #fff;}
+#ImgMore8 #wrap #I32 .brand{background: #fff;overflow: hidden;width: 190px;}
+#ImgMore8 #wrap #I32 .brand a {background:url("http://images.s.cn/images/css/201409101646002.png") no-repeat;border-bottom: 1px dashed #ddd;border-right: 1px dashed #ddd;float: left;height: 40px;line-height: 30em;
+margin: 0 -1px -1px 0;overflow: hidden;width: 95px;}
+#ImgMore8 #wrap #I32 .brand a.anta{background-position: 0 -38px;}
+#ImgMore8 #wrap #I32 .brand a.adidas{background-position: 0 -152px;}
+#ImgMore8 #wrap #I32 .brand a.disney{background-position: -2px -1462px;}
+#ImgMore8 #wrap #I32 .brand a:hover{background: #666;border-color: #666;color: #fff;font-size: 14px;font-weight: 700;line-height: 38px;position: relative;text-align: center;}
+#ImgMore8 #wrap #I32 .leftcat{border-top: 1px dashed #ededed;width: 191px;background: #fff;box-shadow: none;overflow: hidden;position: static;}
+#ImgMore8 #wrap #I32 .leftcat ul{background: #fff;float: left;padding: 6px 0 4px 8px;width: 87px;}
+#ImgMore8 #wrap #I32 .leftcat ul li{line-height: 26px;}
+#ImgMore8 #wrap #I32 .leftcat ul li a{color: #3e3e3e;font-family: Microsoft Yahei;font-size: 13px;font-weight: 700}
+#ImgMore8 #wrap #I32 .leftcat ul li a:hover{text-decoration: underline;}
+#ImgMore8 #wrap #I33{height:426px;width: 401px;float: left;}
+#ImgMore8 #wrap #I33 a{display: block;height: 426px;overflow: hidden;width: 401px;float: left;}
+#ImgMore8 #wrap #I33 img{transform: translateX(2%);transition: all 0.3s ease 0s;}
+#ImgMore8 #wrap #I34{height:426px;width: 399px;float: left;}
+#ImgMore8 #wrap #I34 a{border-right: 1px solid #d2d2d2;display: block;float: left;height: 181px;overflow: hidden;position: relative;width: 198px;}
+#ImgMore8 #wrap #I34 .b {border-bottom: 1px solid #d2d2d2;height: 244px;}
+#ImgMore8 #wrap #I34 img{cursor: pointer;display: block;transform: translateX(2%);transition: all 0.3s ease 0s;} 
+#ImgMore8 #wrap #I34 .rb {border-right: none;}
+#ImgMore8 #wrap #I35{float:left;overflow: hidden;width: 196px;border-left: 1px solid #d2d2d2;height: 426px;}
+#ImgMore8 #wrap #I35 a{display: block;height: 244px;float: left;overflow: hidden;width: 196px;}
+#ImgMore8 #wrap #I35 .b{border-bottom: 1px solid #d2d2d2;height: 244px;display: block;} 
+/*-------------------------footB------------------------------------*/
+#footB #wrap{height: 379px;background-color: #fff;}
+#footB #wrap .footBrand{background: #fff;height: 142px;overflow: hidden;width:1190px;margin-top: 15px; padding-bottom: 1px;}
+#footB #wrap .footBrand a{background: url("http://images.s.cn/images/css/default_brandwall_bg11.png") no-repeat;border: 1px solid #dfdfdf;display: block;float: left;height: 70px;margin: 0 -1px -1px 0;overflow: hidden;position: relative;
+    text-indent: -999px;width: 118px;}
+#footB #wrap .footBrand a.last{width: 117px;display: block;}
+#footB #wrap .footBrand a span {cursor: pointer;display: block;height: 100%;left: 0;position: absolute;top: 0;transition: background-color 0.3s ease 0s;visibility: hidden; width: 100%;}
+#footB #wrap .footBrand a.nike {background-position: 30px -176px;}
+#footB #wrap .footBrand a.adidas{background-position:-97px -176px;}
+#footB #wrap .footBrand a.syc{background-position:-707px -333px;}
+#footB #wrap .footBrand a.neo{background-position:-828px -333px;;}
+#footB #wrap .footBrand a.nb{background-position:-580px -176px;}
+#footB #wrap .footBrand a.converse{background-position:29px -257px;}
+#footB #wrap .footBrand a.skq{background-position:-582px -258px;}
+#footB #wrap .footBrand a.puma{background-position:-825px -176px;}
+#footB #wrap .footBrand a.reebok{background-position:-709px -10px}
+#footB #wrap .footBrand a.asics{background-position: -458px -331px;}
+#footB #wrap .footBrand a.kappa{background-position:-705px -176px;}
+#footB #wrap .footBrand a.anta{background-position: -337px -176px;}
+#footB #wrap .footBrand a.linging{background-position: -220px -176px}
+#footB #wrap .footBrand a.vans{background-position: -95px -256px;}
+#footB #wrap .footBrand a.troead{background-position:-583px -332px;}
+#footB #wrap .footBrand a.lantivy{background-position:-338px -100px;}
+#footB #wrap .footBrand a.dc{background-position: -586px -491px}
+#footB #wrap .footBrand a.nike_tx{background-position:-215px -491px;}
+#footB #wrap .footBrand a.adsics_tx{background-position: -338px -491px;}
+#footB #wrap .footBrand a.disney{background-position:-94px -490px;}
+#footB #wrap .footBrand a:hover span{background:#000;opacity: 0.1;visibility:visible; }
+#footB #wrap .btmfenlei_hd {border-bottom: 1px solid #ccc;clear: both;height: 36px; margin: 0 auto 28px; position: relative;}
+#footB #wrap .btmfenlei_hd h3 { background: #fff none repeat scroll 0 0; font-family: microsoft yahei; font-size: 18px; font-weight: 100;left: 50%;margin: 12px 0 0 -60px;padding: 10px 20px;position: absolute;}
+#footB #wrap .btmfenlei_body dl{float: left;width: 148px;}
+#footB #wrap .btmfenlei_body dt{text-align: center;}
+#footB #wrap .btmfenlei_body dt a{color: #222;}
+#footB #wrap .btmfenlei_body dt a b{display: block;font-size: 14px;font-style: normal;font-weight: 700;text-align: center;text-decoration: none;}
+#footB #wrap .btmfenlei_body dd{border-right: 1px dotted #ccc;height: 68px;overflow: hidden;padding-left: 16px;}
+#footB #wrap .btmfenlei_body dd a{color: #555;display: block;float: left; font-size: 12px;margin-bottom: 4px;text-decoration: none; white-space: nowrap;width: 62px;}
+#footB #wrap .btmfenlei_body  a:hover{color: #c00;text-decoration: underline;}
+/*-------------------------footC------------------------------------*/
+#footC{ background: #f5f5f5 ;border-bottom: 1px solid #e8e8e8;padding: 15px;border-top: 2px solid #ce3c3b;height: 195px;margin-top:20px;}
+#footC #wrap{ margin: 0 auto;width: 1190px;}
+#footC #wrap .ewm{margin-left: 15px;width: 230px; border-right: 1px solid #dedede; float: left;}
+#footC #wrap .ftli{padding-left: 50px;float: left;height: 195px;line-height: 1.6em;}
+#footC #wrap .ftli li{ width: 225px;display: block;float: left;}
+#footC #wrap .ftli li h6{display: block;height: 36px; margin: 5px 0 25px;}
+#footC #wrap .ftli li.last{width: 195px;}
+#footC #wrap .ftli li h5{color: #666; display: block;font-family: "宋体";font-size: 14px;margin: 0 0 6px;}
+#footC #wrap .ftli .c999 a{color: #999;font-size:12px;line-height: 18px;height:18px;display: block;}
+#footC #wrap .ftli li span{width:48px;display: block;}
+#footC #wrap .ftli li span a:hover{color: red;text-decoration: underline;} 
+/*-------------------------footD------------------------------------*/
+#footD{background-color: #f8f8f8;font-size: 12px; color: #777;}
+#footD #wrap {padding: 20px 0; text-align: center;height: 40px;}
+#footD #wrap a{color: #777;font-size: 12px;}
+#footD #wrap span{color: #ccc;font-family: "宋体";height: 13px;display: block;width: 1110px;margin:0 auto;}
+#footD #wrap span a{widows: 60px;height: 13px;}
+#footD #wrap s{color: #c00;font-size: 20px;font-weight: 700;}
+#footD #wrap a:hover{color: red;text-decoration: underline;}
+/*-------------------------footE------------------------------------*/
+#footE #wrap .row3{ width: 640px; height: 50px;margin: 0 auto 30px;}
+#footE #wrap .row3 a{float: left; height: 47px;margin-right: 10px;width: 112px;border: 0;}
+#footE #wrap .row3 a.lat{width: 127px;}
+#footE #wrap .row3 a:hover{border: 1px solid #d5d5d5;height: 45px;width: 110px;overflow: hidden;}
+/*-------------------------foot------------------------------------*/
+#foot #wrap .rolling{margin-bottom:20px;margin-left: 100px;width: 990px;border-bottom: 1px dashed #ccc;border-top: 1px dashed #ccc; height: 20px;padding: 5px;}
+#foot #wrap .rolling h4{color: #999;float: left;font-size: 12px;font-weight: normal;line-height: 20px;margin: 0;}
+#foot #wrap .rolling .roll{font-size: 12px; height: 20px; line-height: 20px; overflow: hidden;width: 930px;position: relative;}
+#foot #wrap .rolling .roll ul{width: 880px;margin: 0 10px;position: absolute;top:0;}
+#foot #wrap .rolling .roll ul li{ margin: 0; margin: 0; overflow: hidden; padding: 0; text-overflow: ellipsis; white-space: nowrap;}
+#foot #wrap .rolling .roll ul li a{color: #999; float: left;padding: 0 5px; white-space: nowrap;}
+#foot #wrap .rolling .roll ul li a:hover{text-decoration: underline;}

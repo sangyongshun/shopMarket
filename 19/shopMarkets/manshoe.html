@@ -1,0 +1,552 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>【男休闲鞋】</title>
+	<link rel="stylesheet" type="text/css" href="css/manshoe.css">
+	<script type="text/javascript" src = "js/jquery-1.10.1.min.js"></script>	
+    <script type="text/javascript" src = "js/ajax.js"></script>
+    <script type="text/javascript" src = "js/nav.js"></script>
+    <script type="text/javascript" src = "js/adidas.js"></script>
+	<script type="text/javascript" src = "js/foot.js"></script>
+    <script type="text/javascript" src="js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="js/manshoe.js"></script>
+</head>
+<body>
+	<!--**************************top*********************************-->
+	<div id = "top">
+		<img src="http://images.s.cn/images/20160920/dt.jpg">
+	</div>
+
+	<!--**************************header*********************************-->
+	<div id = "header">
+    	<div id = "wrap">
+    	    <div class = "topnav">
+	       		<ul id = "right">
+		        	<li><a class = "submit" href="html/login.html">欢迎登陆名鞋库</a><a  class = "submit register"
+	 				href="html/register.html">免费注册</a></li>
+		            <li class = "a1"><a href = "#">我的名鞋库<span id = "tip"></span></a>
+		            	<div class ="drop">
+		 	            	<ul id = "u1">
+		 	            		<li><a href="#">我的订单</a></li>
+		 	            		<li><a href="#">优惠券</a></li>
+		 	            		<li><a href="#">收货地址</a></li>
+		 	            	</ul>	 	            	
+		 	            	<ul id = "u2">
+		 	            		<li><a href="#">我的积分</a></li>
+		 	            		<li><a href="#">商品收藏</a></li>
+		 	            		<li><a href="#">密码管理</a></li>
+		 	            	</ul>
+		 	            </div>
+		 	        </li>
+		            <li class = "a2"><a href = "#"><span id = "phone"></span>手机名鞋库<span id = "tip"></span></a>
+		            	<div>
+		            	    <ul id = "u3">	
+				            	<li class = "a3"><a href="#"><img src = "img/201410081165.png"></a></li>
+				            	<li><a href="#"><img src = "img/201410081168.png"></a></li>	
+				            </ul>	 
+		            	</div>
+	 	            </li>
+		            <li class = "collection"><a href = "#">收藏名鞋库</a></li>
+		            <li><a href = "#"><span id = "qq"></span>名鞋库客服</a></li>
+		            <li><span id = "contact"></span></li>                
+	        	</ul>
+	        </div>
+        </div>
+    </div> 
+    <!--**************************head*********************************-->
+    <div id = "head">
+    	<div id = "wrap"> 
+	        <a class="logo left" href="#"></a>
+	        	<div class="search left">
+			        <form>
+			        <p class="ser"><input class="txt" type="text" value="朗蒂维" />
+			        <input type="button" class="btn" value="搜索"/></p>
+			        <p class = "hot"><span>热搜 :</span><a href="#">跑步鞋</a><a href="#">帆布鞋</a><a href="#">T恤</a><a href="#">胸衣Bra</a><a href="#">紧身打底裤</a><a href="#">三叶草</a></p>
+			        </form>
+	        	</div>
+	        <a class="car" href="#">购物车<em>0</em>件</a>
+	    </div>
+    </div>  
+	<!--**************************nav*********************************-->
+    <div id = "nav">
+    	<div id = "navbox"> 
+    		<ul>
+    		    <li class = "nav_right">
+    		    	<a href="#">运动小白<i class = "spot"><img src = "img/sport.png"/></i></a>
+				<a href="#">上新区</a>
+				<a href="#">即将告罄</a>
+				<a href="#" class = "last">逢八必杀</a>
+    			</li>
+    			<li class = "nav_left">所有商品分类</li>
+    			<li class = "nav_center">
+    				<a href="index.html" class="first on">首页</a>
+    				<a href="#" class="boy">男子运动</a>
+    				<a href="#" class="girl">女子运动</a>
+    				<a href="#" class="child">儿童</a>
+    				<a href="#" class="shoot">男鞋</a>
+    				<a href="#">户外</a>
+    				<div class = "sport">
+    					<ul id ="q1"></ul>
+    					<ul id ="q2"></ul>
+    					<ul id ="q3"></ul>
+    				</div>
+    				<div class = "clothing">
+    					<ul id ="q4"></ul>
+    					<ul id ="q5"></ul>
+    					<ul id ="q6"></ul>
+    				</div>
+    				<div class = "brand1">
+    					<ul id ="q7"></ul>
+    					<ul id ="q9"></ul>
+    					<ul id ="q10"></ul>
+    					<ul id ="q8"></ul>
+    				</div>
+    			</li>
+    			
+    		</ul>
+    	</div>
+    </div>
+    <!--**************************nan*********************************-->
+   <div id="nan">
+     	<div id= "wrap">
+    	    <ul id = "n1"></ul>
+    	    	<div class ="shoes">
+    	    		<div>
+    	    			<h3 class = "runShoes boyShoes">
+    	    				<a href = "#">运动男鞋</a>
+    	    				<a href = "#" class = "more">更多</a>
+    	    			</h3>
+    	    			<p class = "p1"></p>
+    	    		</div>
+    	    		<div>
+    	    			<h3 class = "runShoes girlShoes">
+    	    				<a href = "#">运动女鞋</a>
+    	    				<a href = "#" class = "more">更多</a>
+    	    			</h3>
+    	    			<p class = "p2"></p>
+    	    		</div>
+    	    		<div>
+    	    			<h3 class = "runShoes search">
+    	    				<a href = "#">搜索热词</a>
+    	    			</h3>
+    	    			<p class = "p3"></p>
+    	    		</div>
+    	    		<div>
+    	    			<h3 class = "runShoes hot">
+    	    				<a href = "#">热门系列</a>
+    	    			</h3>
+    	    			<p class = "p4"></p>
+    	    		</div>
+    	    	</div>
+    	    	<div class ="wear">
+    	    		<div>
+    	    			<h3 class = "runWear boyWear">
+    	    				<a href = "#">男子运动服</a>
+    	    				<a href = "#" class = "more">更多</a>
+    	    			</h3>
+    	    			<p class = "p5"></p>
+    	    		</div>
+    	    		<div>
+    	    			<h3 class = "runWear girlWear">
+    	    				<a href = "#">女子运动服</a>
+    	    				<a href = "#" class = "more">更多</a>
+    	    			</h3>
+    	    			<p class = "p6"></p>
+    	    		</div>
+    	    		<div>
+    	    			<h3 class = "runWear search">
+    	    				<a href = "#">热门搜索</a>
+    	    			</h3>
+    	    			<p class = "p7"></p>
+    	    		</div>
+    	    	</div>
+    	    	<div class ="run">
+    	    		<div>
+    	    			<h3 class = "runrun boyRun">
+    	    				<a href = "#">运动男鞋</a>
+    	    				<a href = "#" class = "more">更多</a>
+    	    			</h3>
+    	    			<p class = "p8"></p>
+    	    		</div>
+    	    		<div>
+    	    			<h3 class = "runrun girlRun">
+    	    				<a href = "#">运动女鞋</a>
+    	    				<a href = "#" class = "more">更多</a>
+    	    			</h3>
+    	    			<p class = "p9"></p>
+    	    		</div>
+    	    		<div>
+    	    			<h3 class = "runrun search">
+    	    				<a href = "#">搜索热词</a>
+    	    			</h3>
+    	    			<p class = "p10"></p>
+    	    		</div>
+    	    		<div>
+    	    			<h3 class = "runrun hot">
+    	    				<a href = "#">热门系列</a>
+    	    			</h3>
+    	    			<p class = "p11"></p>
+    	    		</div>
+    	    	</div>
+    	    	<div class ="basketball">
+    	    		<div>
+    	    			<h3 class = "basket boyBasket">
+    	    				<a href = "#">篮球</a>
+    	    				<a href = "#" class = "more">更多</a>
+    	    			</h3>
+    	    			<p class = "z"></p>
+    	    		</div>
+    	    		<div>
+    	    			<h3 class = "basket star">
+    	    				<a href = "#">明星系列</a>
+    	    			</h3>
+    	    			<p class = "z1"></p>
+    	    		</div>
+    	    		<div>
+    	    			<h3 class = "basket search">
+    	    				<a href = "#">热搜品牌</a>
+    	    			</h3>
+    	    			<p class = "z2"></p>
+    	    		</div>
+    	    	</div>
+    	    	<div class ="football">
+    	    		<div>
+    	    			<h3 class = "foot boyFoot">
+    	    				<a href = "#">足球</a>
+    	    				<a href = "#" class = "more">更多</a>
+    	    			</h3>
+    	    			<p class = "z3"></p>
+    	    		</div>
+    	    		<div>
+    	    			<h3 class = "foot star">
+    	    				<a href = "#">系列</a>
+    	    			</h3>
+    	    			<p class = "z4"></p>
+    	    		</div>
+    	    		<div>
+    	    			<h3 class = "foot studs">
+    	    				<a href = "#">鞋钉</a>
+    	    			</h3>
+    	    			<p class = "z5"></p>
+    	    		</div>
+    	    		<div>
+    	    			<h3 class = "foot search">
+    	    				<a href = "#">热搜品牌</a>
+    	    			</h3>
+    	    			<p class = "z6"></p>
+    	    		</div>
+    	    	</div> 
+    	    	<div class = "bag">
+    	    		<div>
+    	    			<h3 class = "bagbag bagB">
+    	    				<a href = "#">包包</a>
+    	    				<a href = "#" class = "more">更多</a>
+    	    			</h3>
+    	    			<p class = "z7"></p>
+    	    		</div>
+    	    		<div>
+    	    			<h3 class = "bagbag parts">
+    	    				<a href = "#">配件</a>
+    	    			</h3>
+    	    			<p class = "z8"></p>
+    	    		</div>
+    	    		<div>
+    	    			<h3 class = "bagbag studs">
+    	    				<a href = "#">热搜品牌</a>
+    	    			</h3>
+    	    			<p class = "z9"></p>
+    	    		</div>
+    	    		<div>
+    	    			<h3 class = "bagbag search">
+    	    				<a href = "#">搜索热词</a>
+    	    			</h3>
+    	    			<p class = "z10"></p>
+    	    		</div>
+    	    	</div>
+    	    	<div class = "outdoor">
+    	    		<div>
+    	    			<h3 class = "out outShoes">
+    	    				<a href = "#">户外鞋</a>
+    	    				<a href = "#" class = "more">更多</a>
+    	    			</h3>
+    	    			<p class = "z11"></p>
+    	    		</div>
+    	    		<div>
+    	    			<h3 class = "out outWear">
+    	    				<a href = "out#">户外服</a>
+    	    				<a href = "#" class = "more">更多</a>
+    	    			</h3>
+    	    			<p class = "z12"></p>
+    	    		</div>
+    	    		<div>
+    	    			<h3 class = "out outstuds">
+    	    				<a href = "#">户外配件</a>
+    	    				<a href = "#" class = "more">更多</a>
+    	    			</h3>
+    	    			<p class = "z13"></p>
+    	    		</div>
+    	    		<div>
+    	    			<h3 class = "out search">
+    	    				<a href = "#">热搜品牌</a>
+    	    			</h3>
+    	    			<p class = "z14"></p>
+    	    		</div>
+    	    	</div>
+    	    </div>
+    	</div>
+    <!-- ********************************Navigation *******************************-->
+    <div id ="wrap">
+        <div class="Navigation">
+            您当前的位置：
+            <span><a href="adidas.html">休闲鞋</a></span>
+        </div>
+        <div class="n_bar">
+            <p>男休闲鞋 <span>(共有<i>645</i>个商品)</span></p>
+        </div>
+        <div class="n_filterbox">
+            <!-- <input value="0" type="hidden"> -->
+                <div class = "select">
+                    <div id="n_chose" class="n_chose">
+                    您已选择：
+                    <a href="#">
+                        <h5>类别：</h5>休闲鞋<i></i>
+                    </a>
+                    <a href="#">
+                        <h5>性别：</h5>男<i></i>
+                    </a>
+                    <a class="rechose" href="#">重新筛选</a>
+                    <br>
+                    </div>
+                </div>  
+                <div id="select_dls" class="n_select"> 
+                    <dl id="brand_dl" class="select_dl">
+                        <div class="more_open" >多选</div>
+                        <div class="open">更多</div> 
+                        <div class="close">收起</div> 
+                        <dt><span>品牌：</span></dt>
+                        <dd><a class="nike" href="#">耐克<i></i></a></dd>
+                        <dd><a class="adidas" href="#" >阿迪达斯<i></i></a></dd>
+                        <dd><a class="newbalance" href="#" >New Balance<i></i></a></dd>
+                        <dd><a class="anta" href="#" >安踏<i></i></a></dd>
+                        <dd><a class="lining" href="#" >李宁<i></i></a></dd>
+                        <dd><a class="puma" href="#" >彪马<i></i></a></dd>
+                        <dd><a class="neo" href="#" >NEO<i></i></a></dd>
+                        <dd><a class="originals" href="#" >三叶草<i></i></a></dd>
+                        <dd><a class="reebok" href="#" >锐步<i></i></a></dd>
+                        <dd><a class="skechers" href="#" >斯凯奇<i></i></a></dd>                          <dd><a class="yaseshi" href="#" >ASICS<i></i></a></dd>
+                        <dd><a class="kappa" href="#" >Kappa<i></i></a></dd>
+                        <dd><a class="disney " href="#" >迪士尼<i></i></a></dd>
+                        <dd><a class="dc" href="#" >DC<i></i></a></dd>
+                        <dd class="hidden"><a class="nba" href="#" >NBA<i></i></a></dd>
+                        <dd class="hidden"><a class="vans" href="#" >vans<i></i></a></dd>
+                        <dd class="hidden"><a class="discovery" href="#" >DC<i></i></a></dd>
+                        <dd class="hidden"><a class="columbia" href="#" >哥伦比亚<i></i></a></dd>
+                    </dl>                                      
+                    <dl id="season_dl" class="select_dl">
+                        <dt><span>季节：</span></dt>
+                        <dd><a href="#" >春秋<i><span>(2)</span></i></a></dd>
+                    </dl>
+                    <dl id="price_id_dl" class="select_dl">
+                        <div class="more_open" >多选</div>
+                        <div class="open">更多</div> 
+                        <div class="close">收起</div>
+                        <dt><span>价格：</span></dt>
+                        <dd><a href="#">0-99元<i><span>(5)</span></i></a></dd>
+                        <dd><a href="#">100-199元<i><span>(119)</span></i></a></dd>
+                        <dd><a href="#">200-299元<i><span>(10)</span></i></a></dd>
+                        <dd><a href="#">300-399元<i><span>(133)</span></i></a></dd>
+                        <dd><a href="#">400-499元<i><span>(135)</span></i></a></dd>
+                        <dd><a href="#">500-599元<i><span>(85)</span></i></a></dd>
+                        <dd><a href="#">660-699元<i><span>(31)</span></i></a></dd>
+                        <dd class="hidden"><a href="#">700-799元<i><span>(12)</span></i></a></dd>
+                        <dd class="hidden"><a href="#">800元以上<i><span>(11)</span></i></a></dd>
+                    </dl>
+                </div>
+        </div>
+        <a id="n_select_open" href="#">展开<i></i></a>
+        <div class="n_desc_page">
+            <span class="desc">
+                <i>排序方式：</i>
+                <a href="#" >价格</a>
+                <a href="#" >销量</a>
+            </span>
+            <span class="page">
+                <span class="select_info">总共找到<i>641</i>个商品</span>
+            </span>
+        </div>
+        <div class="product_list product_fz_new">               
+        </div>
+        <div class="clearfix">
+            <div  class="pager fr">
+                <div class = "pagernum">
+                    <a href="#" class="first">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    ...
+                    <a href="#">8</a>
+                    <a href="#" class = "next" title = "下一页">下一页</a>
+                </div>
+            </div>
+        </div>
+        <div class="footbrand">
+            <a class="nike" href = "#"><span></span></a>
+            <a class="adidas" href = "#"><span></span></a>
+            <a class="syc" href = "#"><span></span></a>
+            <a class="neo" href = "#"><span></span></a>
+            <a class="nb" href = "#"><span></span></a>
+            <a class="converse" href = "#"><span></span></a>
+            <a class="skq" href = "#"><span></span></a>
+            <a class="puma" href = "#"><span></span></a>
+            <a class="reebok" href = "#"><span></span></a>
+            <a class="asics last" href = "#"><span></span></a>                
+            <a class="kappa" href = "#"><span></span></a>
+            <a class="anta" href = "#"><span></span></a>
+            <a class="lining" href = "#"><span></span></a>
+            <a class="vans" href = "#"><span></span></a>
+            <a class="troead" href = "#"><span></span></a>
+            <a class="lantivy" href = "#"><span></span></a>
+            <a class="dc" href = "#"><span></span></a>
+            <a class="nike_tx" href = "#"><span></span></a>
+            <a class="adsics_tx" href = "#"><span></span></a>
+            <a class="disney last" href = "#"><span></span></a>
+        </div>
+        <div class = "btmfenlei_hd">
+            <h3>商品分类</h3>
+        </div>
+        <div class = "btmfenlei_body1"></div>
+    
+        <div id = "foow">
+            <div id="warp">
+            <a href="#top" target="_blank">
+                <img src="http://images.s.cn/images/2012/1024/foot-goto-i.jpg">
+            </a>
+             </div>
+        </div>
+    </div>
+     <!--**************************footC*********************************-->
+    <div id = "footC">
+        <div id = "wrap">
+            <div class = "ewm">
+                <img src="http://images.s.cn/images/css/2014052815001.png"/>
+            </div>
+            <ul class= "ftli"></ul>
+        </div>
+    </div>
+     <!--**************************footD*********************************-->
+    <div id = "footD">
+        <div id = "wrap">
+            <span>
+                <a href="#">关于名鞋库</a> | 
+                <a href="#">名鞋库资讯</a> | 
+                <a href="#">联系名鞋库</a> | 
+                <a href="#">人才招聘</a> | 
+                <a href="#">免责条款 </a> | 
+                <a href="#">法律声明</a> | 
+                <a href="#">意见反馈</a> | 
+                <a href="#">全部分类 </a> | 
+                <a href="#">友情链接</a> | 
+                <a href="#">鞋码对照表</a> | 
+                <a href="#">问答</a><a href="#">咨询</a><a href="#">标签</a><a href="#">主题</a> | 
+                <a href="#">鞋子品牌大全</a> | 
+                <a href="#">商品大全</a>    
+            </span>
+            Copyright © 2008-2014<s>s.cn</s><a href="#">名鞋库</a>All Rights Reserved.    
+            <a href="#">闽ICP备08106896号</a>经营许可证闽B2-20110061    
+            <a href="#"><img src="http://images.s.cn/images/css/20160617.png">闽公网安备 35020602000166号</a>
+        </div>
+    </div>
+    <!--**************************footE*********************************-->
+    <div id = "footE">
+        <div id = "wrap">
+            <div class ="row3">
+                <a href="#"><img src="http://images.s.cn/images/css/2014052815006.png" /></a>
+                <a href="#"><img src="http://images.s.cn/images/css/2014052815007.png" /></a>
+                <a href="#"><img src="http://images.s.cn/images/css/20140528150010.png" /></a>
+                <a href="#"><img src="http://static.anquan.org/static/outer/image/sm_124x47.png" /></a>
+                <a href="#" class="lat"><img src="http://images.s.cn/images/css/201409101718cnnic.png" /></a>               
+            </div>
+        </div>
+    </div>
+
+    <!--  右边的菜单栏 -->
+    <div class="outer">
+        <div class="tabs">
+            <div id="tdtv_tit" class="tabs-mask">
+                <div class="tabs-top-wide on">
+                    <div class="tab-logo tab-logo-hot "></div>
+                    <div class="tab-txt">热门活动</div>
+                </div>
+                <div class="tab tab-brand">
+                    <div class="tab-logo tab-logo-brand "></div>
+                    <div class="tab-txt">品牌分类</div>
+                </div>
+                <div id="CartList" class="tab  tab-cart">
+                    <div class="tab-logo tab-logo-cart "></div>
+                    <div class="tab-cart-border"></div>
+                    <div class="tab-tip">
+                        购物车
+                        <div class="arr">◆</div>
+                    </div>
+                </div>
+                <div id="Member_info_list" class="tab  tab-order">
+                    <div class="tab-logo tab-logo-order "></div>
+                    <div class="tab-tip">
+                        我的订单
+                        <div class="arr">◆</div>
+                    </div>
+                </div>
+                <div class="tab tab-kefu">
+                    <div class="tab-logo tab-logo-kefu"></div>
+                    <div class="tab-tip">
+                        联系客服
+                        <div class="arr">◆</div>
+                    </div>
+                </div>
+                <div id="FavList" class=" tab  tab-favor">
+                    <div class="tab-logo tab-logo-favor"></div>
+                    <div class="tab-tip1">
+                        我的收藏
+                        <div class="arr">◆</div>
+                    </div>
+                </div>
+                <div class="tab  tab-share">
+                    <div class="tab-logo tab-logo-share"></div>
+                </div>
+            </div>    
+        </div>     
+    
+   <!-- 点击出来弹框 -->  
+        <div id="tdtv_tab" class="plugins">
+            <div class="mcListInner">
+                <div class="mcList">
+                    <div class="mcTop">
+                        <a class="mcCartBtn" href="http://www.s.cn/cart-index.html" title="全屏查看">全屏查看</a>
+                    </div>
+                    <div class="mcBundle mcBundleC">
+                    </div>    
+                    <div class="mcHandler">
+                        <div class="mcCashier-wrap">
+                            <div id="cartTotal" class="mcTotal clearfix">
+                                <h3>
+                                    <span class="tm-e2">已选</span>
+                                    <strong class="mcCheckedNum">0</strong>
+                                    <span class="tm-e2">件</span>
+                                </h3>
+                                    <span class="mcTotalFeeWrap">
+                                    <strong class="mcTotalFee">￥0.00</strong>
+                                    </span>
+                            </div>
+                            <p class="rbarp-favor-see-more mcGo">
+                                <a class="fixpng" target="_blank" href="http://www.s.cn/cart-checkout.html">结算</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        </div>
+    </body>
+</html>

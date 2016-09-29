@@ -1,0 +1,673 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>名鞋库</title>
+	<link rel="stylesheet" type="text/css" href="css/mingxieku.css">
+	<script type="text/javascript" src = "js/ajax.js"></script>
+	<script type="text/javascript" src = "js/jquery-1.10.1.min.js"></script>	
+	<script type="text/javascript" src = "js/demo.js"></script>	
+	<script type="text/javascript" src = "js/layout.js"></script>
+	<script type="text/javascript" src = "js/layout1.js"></script>
+	<script type="text/javascript" src = "js/nav.js"></script>
+	<script type="text/javascript" src = "js/img.js"></script>
+	<script type="text/javascript" src = "js/foot.js"></script>
+</head>
+<body>
+    <!--**************************header*********************************-->
+	<div id = "header">
+    	<div id = "wrap">
+    	    <div class = "topnav">
+	       		<ul id = "right">
+		        	<li><a class = "submit" href="html/login.html">欢迎登陆名鞋库</a><a  class = "submit register"
+	 				href="html/register.html">免费注册</a></li>
+		            <li class = "a1"><a href = "#">我的名鞋库<span id = "tip"></span></a>
+		            	<div class ="drop">
+		 	            	<ul id = "u1">
+		 	            		<li><a href="#">我的订单</a></li>
+		 	            		<li><a href="#">优惠券</a></li>
+		 	            		<li><a href="#">收货地址</a></li>
+		 	            	</ul>	 	            	
+		 	            	<ul id = "u2">
+		 	            		<li><a href="#">我的积分</a></li>
+		 	            		<li><a href="#">商品收藏</a></li>
+		 	            		<li><a href="#">密码管理</a></li>
+		 	            	</ul>
+		 	            </div>
+		 	        </li>
+		            <li class = "a2"><a href = "#"><span id = "phone"></span>手机名鞋库<span id = "tip"></span></a>
+		            	<div>
+		            	    <ul id = "u3">	
+				            	<li class = "a3"><a href="#"><img src = "img/201410081165.png"></a></li>
+				            	<li><a href="#"><img src = "img/201410081168.png"></a></li>	
+				            </ul>	 
+		            	</div>
+	 	            </li>
+		            <li class = "collection"><a href = "#">收藏名鞋库</a></li>
+		            <li><a href = "#"><span id = "qq"></span>名鞋库客服</a></li>
+		            <li><span id = "contact"></span></li>                
+	        	</ul>
+	        </div>
+        </div>
+    </div> 
+    <!--**************************head*********************************-->
+    <div id = "head">
+    	<div id = "wrap"> 
+	        <a class="logo left" href="#"></a>
+	        	<div class="search left">
+			        <form>
+			        <p class="ser"><input class="txt" type="text" value="朗蒂维" />
+			        <input type="button" class="btn" value="搜索"/></p>
+			        <p class = "hot"><span>热搜 :</span><a href="#">跑步鞋</a><a href="#">帆布鞋</a><a href="#">T恤</a><a href="#">胸衣Bra</a><a href="#">紧身打底裤</a><a href="#">三叶草</a></p>
+			        </form>
+	        	</div>
+	        <a class="car">购物车<em>0</em>件</a>
+	    </div>
+    </div>  
+	<!--**************************nav*********************************-->
+    <div id = "nav">
+    	<div id = "wrap"> 
+    		<ul>
+    		    <li class = "nav_right">
+    		    	<a href="#">运动小白<i class = "spot"><img src = "img/sport.png"/></i></a>
+				<a href="#">上新区</a>
+				<a href="#">即将告罄</a>
+				<a href="#" class = "last">逢八必杀</a>
+    			</li>
+    			<li class = "nav_left">所有商品分类</li>
+    			<li class = "nav_center">
+    				<a href="#" class="first on">首页</a>
+    				<a href="manshoe.html" class="boy">男子运动</a>
+    				<a href="manshoe.html" class="girl">女子运动</a>
+    				<a href="manshoe.html" class="child">儿童</a>
+    				<a href="manshoe.html" class="shoot">男鞋</a>
+    				<a href="manshoe.html">户外</a>
+    				<div class = "sport">
+    					<ul id ="q1"></ul>
+    					<ul id ="q2"></ul>
+    					<ul id ="q3"></ul>
+    				</div>
+    				<div class = "clothing">
+    					<ul id ="q4"></ul>
+    					<ul id ="q5"></ul>
+    					<ul id ="q6"></ul>
+    				</div>
+    				<div class = "brand1">
+    					<ul id ="q7"></ul>
+    					<ul id ="q9"></ul>
+    					<ul id ="q10"></ul>
+    					<ul id ="q8"></ul>
+    				</div>
+    			</li>
+    			
+    		</ul>
+    	</div>
+    </div>
+    <!--**************************banner*********************************-->
+    <div id = "banner">
+    	<div id = "wrap1">	    
+	    <!-- 图片部分 -->
+			<ul id ="imgList">
+				<li><a href = "#"><img src = "img/671398666c3a495d.jpg" /></a><li>	
+				<li><a href = "#"><img src = "img/index_jd12.jpg" /></a><li>
+				<li><a href = "#"><img src = "img/index_jd2.jpg" /></a><li>	
+				<li><a href = "#"><img src = "img/671398666c3a495d.jpg" /></a><li>		
+			</ul>
+			<!--按钮布局开始-->
+			<div id = "buttons">
+		        <div class = "on"></div>
+		        <div></div>
+		        <div></div>	
+	        </div>
+	    </div>
+	    <div id = "wrap">
+	    	<ul id = "n1"></ul>
+	    	<ul id = "n2">
+	    		<a href = "#" class = "s1"></a>
+	    		<a href = "#" class = "s2"></a>
+	    	</ul> 
+	    	<div class ="shoes">
+	    		<div>
+	    			<h3 class = "runShoes boyShoes">
+	    				<a href = "manshoe.html">运动男鞋</a>
+	    				<a href = "#" class = "more">更多</a>
+	    			</h3>
+	    			<p class = "p1"></p>
+	    		</div>
+	    		<div>
+	    			<h3 class = "runShoes girlShoes">
+	    				<a href = "manshoe.html">运动女鞋</a>
+	    				<a href = "#" class = "more">更多</a>
+	    			</h3>
+	    			<p class = "p2"></p>
+	    		</div>
+	    		<div>
+	    			<h3 class = "runShoes search">
+	    				<a href = "#">搜索热词</a>
+	    			</h3>
+	    			<p class = "p3"></p>
+	    		</div>
+	    		<div>
+	    			<h3 class = "runShoes hot">
+	    				<a href = "manshoe.html">热门系列</a>
+	    			</h3>
+	    			<p class = "p4"></p>
+	    		</div>
+	    	</div>
+	    	<div class ="wear">
+	    		<div>
+	    			<h3 class = "runWear boyWear">
+	    				<a href = "manshoe.html">男子运动服</a>
+	    				<a href = "#" class = "more">更多</a>
+	    			</h3>
+	    			<p class = "p5"></p>
+	    		</div>
+	    		<div>
+	    			<h3 class = "runWear girlWear">
+	    				<a href = "manshoe.html">女子运动服</a>
+	    				<a href = "#" class = "more">更多</a>
+	    			</h3>
+	    			<p class = "p6"></p>
+	    		</div>
+	    		<div>
+	    			<h3 class = "runWear search">
+	    				<a href = "#">热门搜索</a>
+	    			</h3>
+	    			<p class = "p7"></p>
+	    		</div>
+	    	</div>
+	    	<div class ="run">
+	    		<div>
+	    			<h3 class = "runrun boyRun">
+	    				<a href = "manshoe.html">运动男鞋</a>
+	    				<a href = "#" class = "more">更多</a>
+	    			</h3>
+	    			<p class = "p8"></p>
+	    		</div>
+	    		<div>
+	    			<h3 class = "runrun girlRun">
+	    				<a href = "manshoe.html">运动女鞋</a>
+	    				<a href = "#" class = "more">更多</a>
+	    			</h3>
+	    			<p class = "p9"></p>
+	    		</div>
+	    		<div>
+	    			<h3 class = "runrun search">
+	    				<a href = "#">搜索热词</a>
+	    			</h3>
+	    			<p class = "p10"></p>
+	    		</div>
+	    		<div>
+	    			<h3 class = "runrun hot">
+	    				<a href = "manshoe.html">热门系列</a>
+	    			</h3>
+	    			<p class = "p11"></p>
+	    		</div>
+	    	</div>
+	    	<div class ="basketball">
+	    		<div>
+	    			<h3 class = "basket boyBasket">
+	    				<a href = "manshoe.html">篮球</a>
+	    				<a href = "#" class = "more">更多</a>
+	    			</h3>
+	    			<p class = "z"></p>
+	    		</div>
+	    		<div>
+	    			<h3 class = "basket star">
+	    				<a href = "#">明星系列</a>
+	    			</h3>
+	    			<p class = "z1"></p>
+	    		</div>
+	    		<div>
+	    			<h3 class = "basket search">
+	    				<a href = "#">热搜品牌</a>
+	    			</h3>
+	    			<p class = "z2"></p>
+	    		</div>
+	    	</div>
+	    	<div class ="football">
+	    		<div>
+	    			<h3 class = "foot boyFoot">
+	    				<a href = "manshoe.html">足球</a>
+	    				<a href = "#" class = "more">更多</a>
+	    			</h3>
+	    			<p class = "z3"></p>
+	    		</div>
+	    		<div>
+	    			<h3 class = "foot star">
+	    				<a href = "#">系列</a>
+	    			</h3>
+	    			<p class = "z4"></p>
+	    		</div>
+	    		<div>
+	    			<h3 class = "foot studs">
+	    				<a href = "#">鞋钉</a>
+	    			</h3>
+	    			<p class = "z5"></p>
+	    		</div>
+	    		<div>
+	    			<h3 class = "foot search">
+	    				<a href = "#">热搜品牌</a>
+	    			</h3>
+	    			<p class = "z6"></p>
+	    		</div>
+	    	</div> 
+	    	<div class = "bag">
+	    		<div>
+	    			<h3 class = "bagbag bagB">
+	    				<a href = "manshoe.html">包包</a>
+	    				<a href = "#" class = "more">更多</a>
+	    			</h3>
+	    			<p class = "z7"></p>
+	    		</div>
+	    		<div>
+	    			<h3 class = "bagbag parts">
+	    				<a href = "#">配件</a>
+	    			</h3>
+	    			<p class = "z8"></p>
+	    		</div>
+	    		<div>
+	    			<h3 class = "bagbag studs">
+	    				<a href = "#">热搜品牌</a>
+	    			</h3>
+	    			<p class = "z9"></p>
+	    		</div>
+	    		<div>
+	    			<h3 class = "bagbag search">
+	    				<a href = "#">搜索热词</a>
+	    			</h3>
+	    			<p class = "z10"></p>
+	    		</div>
+	    	</div>
+	    	<div class = "outdoor">
+	    		<div>
+	    			<h3 class = "out outShoes">
+	    				<a href = "manshoe.html">户外鞋</a>
+	    				<a href = "#" class = "more">更多</a>
+	    			</h3>
+	    			<p class = "z11"></p>
+	    		</div>
+	    		<div>
+	    			<h3 class = "out outWear">
+	    				<a href = "manshoe.html">户外服</a>
+	    				<a href = "#" class = "more">更多</a>
+	    			</h3>
+	    			<p class = "z12"></p>
+	    		</div>
+	    		<div>
+	    			<h3 class = "out outstuds">
+	    				<a href = "#">户外配件</a>
+	    				<a href = "#" class = "more">更多</a>
+	    			</h3>
+	    			<p class = "z13"></p>
+	    		</div>
+	    		<div>
+	    			<h3 class = "out search">
+	    				<a href = "#">热搜品牌</a>
+	    			</h3>
+	    			<p class = "z14"></p>
+	    		</div>
+	    	</div>
+	    </div>	
+    </div>
+    <!--**************************imglist*********************************-->
+    <div id = "imglist">
+    	<div id = "wrap">
+    		<ul id = "i1">
+    			<li class = "on">运动/户外/童鞋</li>	
+    		</ul>
+    		<div class="brand_yd">
+    			<a class="nike" href = "manshoe.html"><span></span></a>
+    			<a class="adidas" href = "manshoe.html"><span></span></a>
+    			<a class="syc" href = "manshoe.html"><span></span></a>
+    			<a class="neo" href = "manshoe.html"><span></span></a>
+    			<a class="nb" href = "manshoe.html"><span></span></a>
+    			<a class="converse" href = "manshoe.html"><span></span></a>
+    			<a class="skq" href = "manshoe.html"><span></span></a>
+    			<a class="puma" href = "manshoe.html"><span></span></a>
+    			<a class="reebok" href = "manshoe.html"><span></span></a>
+    			<a class="asics" href = "manshoe.html"><span></span></a>
+    			<a class="dc" href = "manshoe.html"><span></span></a>
+    			<a class="kappa" href = "manshoe.html"><span></span></a>
+    			<a class="anta" href = "manshoe.html"><span></span></a>
+    			<a class="linging" href = "manshoe.html"><span></span></a>
+    			<a class="vans" href = "manshoe.html"><span></span></a>
+    			<a class="nba" href = "manshoe.html"><span></span></a>
+    			<a class="troead" href = "manshoe.html"><span></span></a>
+    			<a class="lantivy" href = "manshoe.html"><span></span></a>
+    			<a class="nike_tx" href = "manshoe.html"><span></span></a>
+    			<a class="adsics_tx" href = "manshoe.html"><span></span></a>
+    			<a class="disney" href = "manshoe.html"><span></span></a>
+    		</div>
+    		<div class = "col_w190">
+    			<div class = "top">
+    				<ul>
+    					<li><a class = "on1" href="#">颜王撩妹,运动风全程开挂</a></li>
+    					<li><a href="#">说走就走，用一场旅行致青春</a></li>
+    					<li><a href="#">DC潮货出没，帅得犯规!</a></li>
+    				</ul>
+    			</div>
+    			<div class = "middle">
+    				<img src = "img/98i4o4ptit.png"/>
+    			</div>
+    			<div class = "down">
+    				<ul class ="List">
+						<li><a href = "manshoe.html"><img src = "img/s160111xp1.jpg" /></a><li>	
+						<li><a href = "manshoe.html"><img src = "img/s160111xp2.jpg" /></a><li>		
+					</ul>
+			        <!--按钮布局开始-->
+					<div class = "butn">
+				        <div class = "on2"></div>
+				        <div></div>
+			        </div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <!--**************************Img*********************************--> 
+    <div id = "Img">
+    	<div id = "wrap">
+    		<div id = "im"></div>		
+    	</div>
+    </div>
+    <!--**************************ImgMore*********************************-->
+    <div id = "ImgMore">
+    	<div id = "wrap">
+    		<div id = "I1"></div>
+    		<div id = "I2"></div>
+    		<div id = "I3"></div>
+    	</div>
+    </div> 
+    <!--**************************ImgMore1*********************************-->
+    <div id = "ImgMore1">
+    	<div id = "wrap">
+    		<div id = "I4">
+    			<div class ="hd_f">
+    				<img src = "http://img04.taobaocdn.com/imgextra/i4/156043745/TB2QDk_bVXXXXblXpXXXXXXXXXX_!!156043745.png">
+    			</div>
+    			<div class ="brand">
+    				<a class="nike" href = "manshoe.html">耐克</a>
+    				<a class="adidas" href = "manshoe.html">阿迪达斯</a>	
+    				<a class="origis" href = "manshoe.html">三叶草</a>
+    				<a class="neo" href = "manshoe.html">NEO</a>
+    				<a class="nb" href = "manshoe.html">新百伦</a>
+    				<a class="conversef" href = "manshoe.html">匡威</a>	
+    				<a class="puma" href = "manshoe.html">彪马</a>
+					<a class="reebok" href = "manshoe.html">锐步</a>
+					<a class="vans" href = "manshoe.html">万斯</a>
+					<a class="asics" href = "manshoe.html">亚瑟士</a>
+					<a class="dc" href = "manshoe.html">DC</a>				
+				</div>
+				<div class ="leftcat">
+    				<ul class = "u1"></ul>
+    				<ul class = "u2"></ul>
+    			</div>	
+    			</div>
+    		<div id = "I5"></div>
+    		<div id = "I6"></div>
+    		<div id = "I7"></div>
+    	</div>
+    </div>
+ <!--**************************ImgMore2*********************************-->
+    <div id = "ImgMore2">
+    	<div id = "wrap">
+    		<div id = "I8">
+    			<div class ="hd_f">
+    				<img src = "http://img03.taobaocdn.com/imgextra/i3/156043745/TB2AgXhcXXXXXarXXXXXXXXXXXX_!!156043745.jpg">
+    			</div>
+    			<div class ="brand">
+    			    <a class="adidas" href = "#">阿迪达斯</a>	
+    				<a class="nike" href = "#">耐克</a>  				
+    				<a class="origis" href = "#" >三叶草</a>
+    				<a class="nb" href = "#">新百伦</a>
+    				<a class="neo" href = "#">NEO</a>
+    				<a class="puma" href = "#">彪马</a>
+    				<a class="conversef" href = "#">匡威</a>	    				
+					<a class="kappa" href = "#">卡帕</a>
+					<a class="lining" href = "#">李宁</a>
+					<a class="vans" href = "#">万斯</a>				
+				</div>
+				<div class ="leftcat">
+    				<ul class = "u3"></ul>
+    				<ul class = "u4"></ul>
+    			</div>	
+    			</div>
+    		<div id = "I9"></div>
+    		<div id = "I10"></div>
+    		<div id = "I11"></div>
+    	</div>
+    </div>
+    <!--**************************ImgMore3*********************************-->
+    <div id = "ImgMore3">
+    	<div id = "wrap">
+    		<div id = "I12">
+    			<div class ="hd_f">
+    				<img src = "http://img04.taobaocdn.com/imgextra/i4/156043745/TB2RfFgcXXXXXa4XXXXXXXXXXXX_!!156043745.jpg">
+    			</div>
+    			<div class ="brand">
+    			   <a class="nike" href = "#">耐克</a>  
+    			    <a class="adidas" href = "#">阿迪达斯</a>	
+    				<a class="nb" href = "#">新百伦</a>				
+    				<a class="asics" href = "#">亚瑟士</a>
+    				<a class="puma" href = "#">彪马</a>
+    			    <a class="reebok" href = "#" >锐步</a>	
+    				<a class="anta" href = "#">安踏</a>
+					<a class="lining" href = "#">李宁</a>				
+					<a class="kappa" href = "#">卡帕</a>			
+				</div>
+				<div class ="leftcat">
+    				<ul class = "u5"></ul>
+    				<ul class = "u6"></ul>
+    			</div>	
+    			</div>
+    		<div id = "I13"></div>
+    		<div id = "I14"></div>
+    		<div id = "I15"></div>
+    	</div>
+    </div>
+    <!--**************************ImgMore4*********************************-->
+    <div id = "ImgMore4">
+    	<div id = "wrap">
+    		<div id = "I16">
+    			<div class ="hd_f">
+    				<img src = "http://img03.taobaocdn.com/imgextra/i3/156043745/TB2GihjcXXXXXXaXXXXXXXXXXXX_!!156043745.jpg">
+    			</div>
+    			<div class ="brand">
+    			    <a class="nike" href = "#">耐克</a>  
+    			    <a class="adidas" href = "#">阿迪达斯</a>	  			   
+    				<a class="anta" href = "#">安踏</a>
+					<a class="lining" href = "#">李宁</a>				
+					<a class="reebok" href = "#">锐步</a>	
+				</div>
+				<div class ="leftcat">
+    				<ul class = "u7"></ul>
+    				<ul class = "u8"></ul>
+    			</div>	
+    			</div>
+    		<div id = "I17"></div>
+    		<div id = "I18"></div>
+    		<div id = "I19"></div>
+    	</div>
+    </div>
+    <!--**************************ImgMore5*********************************-->
+    <div id = "ImgMore5">
+    	<div id = "wrap">
+    		<div id = "I20">
+    			<div class = "hd_f">
+    				<img src = "http://img04.taobaocdn.com/imgextra/i4/156043745/TB2GBg_bVXXXXbyXpXXXXXXXXXX_!!156043745.jpg">
+    			</div>
+    			<div class ="brand">
+    			    <a class = "nike" href = "#">耐克</a>  
+    			    <a class = "adidas" href = "#">阿迪达斯</a>
+    			    <a class = "conversef" href = "#">匡威</a>
+    			    <a class = "neo" href = "#">NEO</a>
+    			    <a class = "kappa" href = "#">卡帕</a>		  			   			
+					<a class = "reebok" href = "#">锐步</a>
+					<a class = "puma" href = "#">彪马</a>	
+				</div>
+				<div class = "leftcat">
+    				<ul class = "u9"></ul>
+    				<ul class = "u10"></ul>
+    			</div>	
+    			</div>
+    		<div id = "I21"></div>
+    		<div id = "I22"></div>
+    		<div id = "I23"></div>
+    	</div>
+    </div>
+
+    <!--**************************ImgMore6*********************************-->
+    <div id = "ImgMore6">
+    	<div id = "wrap">
+    		<div id = "I24">
+    			<div class = "hd_f">
+    				<img src = "http://img01.taobaocdn.com/imgextra/i1/156043745/TB2eaRjcXXXXXXoXXXXXXXXXXXX_!!156043745.jpg">
+    			</div>
+    			<div class = "brand">
+    			    <a class = "toread" href = "#">探路者</a>  
+    			    <a class = "adidas" href = "#">阿迪达斯</a>
+    			    <a class = "anta" href = "#">安踏</a>	
+				</div>
+				<div class = "leftcat">
+    				<ul class = "u11"></ul>
+    				<ul class = "u12"></ul>
+    			</div>	
+    			</div>
+    		<div id = "I25"></div>
+    		<div id = "I26"></div>
+    		<div id = "I27"></div>
+    	</div>
+    </div>
+     <!--**************************ImgMore7*********************************-->
+    <div id = "ImgMore7">
+    	<div id = "wrap">
+    		<div id = "I28">
+    			<div class ="hd_f">
+    				<img src = "http://img01.taobaocdn.com/imgextra/i1/156043745/TB2GqXhcXXXXXbXXXXXXXXXXXXX_!!156043745.png">
+    			</div>
+    			<div class ="brand">
+    				<a class = "stsat" href = "#">星期六</a>
+    			    <a class = "lantivy" href = "#">朗蒂维</a>  
+    			    <a class = "aokang" href = "#" >奥康</a>
+    			    <a class = "skq" href = "#">斯凯奇</a>	
+				</div>
+				<div class ="leftcat">
+    				<ul class = "u13"></ul>
+    				<ul class = "u14"></ul>
+    			</div>	
+    			</div>
+    		<div id = "I29"></div>
+    		<div id = "I30"></div>
+    		<div id = "I31"></div>
+    	</div>
+    </div>
+     <!--**************************ImgMore8*********************************-->
+     <div id = "ImgMore8">
+   	<div id = "wrap">
+   		<div id = "I32">
+   			<div class ="hd_f">
+   				<img src = "http://images.s.cn/images/2012/1024/s8fhead.png">
+   			</div>
+   			<div class ="brand">
+   			  	<a class = "nike" href = "#">耐克</a>  
+    			<a class = "adidas" href = "#">阿迪达斯</a>
+   			    <a class = "disney" href = "#">迪斯尼</a>	
+   				</div>
+   				<div class ="leftcat">
+   				<ul class = "u15"></ul>
+   				<ul class = "u16"></ul>
+   			</div>	
+   			</div>
+   		<div id = "I33"></div>
+   		<div id = "I34"></div>
+   		<div id = "I35"></div>
+   	</div>
+   </div> 
+    <!--**************************footB*********************************-->
+   <div id = "footB">
+   		<div id = "wrap">
+   			<div class="footBrand">
+    			<a class="nike" href = "#"><span></span></a>
+    			<a class="adidas" href = "#"><span></span></a>
+    			<a class="syc" href = "#"><span></span></a>
+    			<a class="neo" href = "#"><span></span></a>
+    			<a class="nb" href = "#"><span></span></a>
+    			<a class="converse" href = "#"><span></span></a>
+    			<a class="skq" href = "#"><span></span></a>
+    			<a class="puma" href = "#"><span></span></a>
+    			<a class="reebok" href = "#"><span></span></a>
+    			<a class="asics last" href = "#"><span></span></a>
+    			<a class="kappa" href = "#"><span></span></a>
+    			<a class="anta" href = "#"><span></span></a>
+    			<a class="linging" href = "#"><span></span></a>
+    			<a class="vans" href = "#"><span></span></a>
+    			<a class="troead" href = "#"><span></span></a>
+    			<a class="lantivy" href = "#"><span></span></a>
+    			<a class="dc" href = "#"><span></span></a>	
+    			<a class="nike_tx" href = "#"><span></span></a>
+    			<a class="adsics_tx" href = "#"><span></span></a>
+    			<a class="disney last" href = "#"><span></span></a>
+    		</div>
+    		<div class = "btmfenlei_hd">
+    			<h3>商品分类</h3>
+    		</div>
+    		<div class = "btmfenlei_body"></div>
+   		</div>
+   </div>
+    <!--**************************footC*********************************-->
+    <div id = "footC">
+    	<div id = "wrap">
+    		<div class = "ewm">
+    			<img src="http://images.s.cn/images/css/2014052815001.png"/>
+    		</div>
+    		<ul class= "ftli"></ul>
+    	</div>
+    </div>
+    <!--**************************footD*********************************-->
+    <div id = "footD">
+    	<div id = "wrap">
+    		<span>
+    			<a href="#">关于名鞋库</a> | 
+    			<a href="#">名鞋库资讯</a> | 
+    			<a href="#">联系名鞋库</a> | 
+    			<a href="#">人才招聘</a> | 
+    			<a href="#">免责条款 </a> | 
+    			<a href="#">法律声明</a> | 
+    			<a href="#">意见反馈</a> | 
+    			<a href="#">全部分类 </a> | 
+    			<a href="#">友情链接</a> | 
+    			<a href="#">鞋码对照表</a> | 
+    			<a href="#">问答</a><a href="#">咨询</a><a href="#">标签</a><a href="#">主题</a> | 
+    			<a href="#">鞋子品牌大全</a> | 
+    			<a href="#">商品大全</a>	
+    		</span>
+    		Copyright © 2008-2014<s>s.cn</s><a href="#">名鞋库</a>All Rights Reserved.    
+            <a href="#">闽ICP备08106896号</a>经营许可证闽B2-20110061    
+			<a href="#"><img src="http://images.s.cn/images/css/20160617.png">闽公网安备 35020602000166号</a>
+    	</div>
+    </div>
+    <!--**************************footE*********************************-->
+    <div id = "footE">
+    	<div id = "wrap">
+    		<div class ="row3">
+    			<a href="#"><img src="http://images.s.cn/images/css/2014052815006.png" /></a>
+    			<a href="#"><img src="http://images.s.cn/images/css/2014052815007.png" /></a>
+    			<a href="#"><img src="http://images.s.cn/images/css/20140528150010.png" /></a>
+    			<a href="#"><img src="http://static.anquan.org/static/outer/image/sm_124x47.png" /></a>
+    			<a href="#" class="lat"><img src="http://images.s.cn/images/css/201409101718cnnic.png" /></a>    			
+    		</div>
+    	</div>
+    </div>
+    <!--**************************foot*********************************-->
+    <div id = "foot">
+      	<div id = "wrap">
+      		<div class="rolling">
+      			<h4>友情链接：</h4>
+      			<div class = "roll">
+      			    <ul class="ros"></ul>
+      			</div>
+      		</div>
+      	</div>
+    </div>	
+</body>
+</html>

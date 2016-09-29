@@ -1,0 +1,65 @@
+*{ padding:0; margin:0;}
+a{ text-decoration:none;}
+ul,li{ list-style:none;}
+input{ border:0; background:none; }
+img{ border:0;}
+em,i{ font-style:normal;}
+.wrap{margin: 0 auto;width: 990px;}
+body{color: #333;font-size: 12px;}
+.left{float: left;}
+/*--------------------header----------------------------*/
+#header{margin-bottom: 1px; width: 100%; padding: 20px 0 0;}
+#header .wrap{height: 73px;}
+#header .wrap .logo{height: auto;float: left;padding-top: 10px;width: 427px;}
+/*--------------------AllWrapInside----------------------------*/
+#AllWrapInside .wrap{height: 482px;}
+.c999{line-height: 30px;margin: 0 auto; padding-right: 10px; text-align: right;width: 780px;}
+.c999 a{color: #999;}
+#AllWrapInside .wrap .td{height: 442px;}
+#AllWrapInside .wrap .td .RegisterWrap{height: 442px;width: 780px;margin: 10px auto; border: 1px solid #efefef;border-radius: 2px;box-shadow: 0 0 8px #e5e5e5;
+    padding: 0;}
+.RegisterWrap .top{background: #f8f8f8;border-bottom: 1px solid #efefef;color: #888;font-family: microsoft yahei;font-size: 16px;font-weight: 700;padding: 4px 10px;text-shadow: 1px 1px #fff;}
+.RegisterWrap .center{ background:url("http://images.s.cn/images/css/signup.jpg") no-repeat scroll center bottom; width:780px;height: 409px;}
+.RegisterWrap .center .left{width: 506px;height: 409px;float: left;}
+.RegisterWrap .center .left .div1{padding:40px 0 80px 80px;width: 426px;height: 289px;}
+.RegisterWrap .center .left .div1 ul{position: relative;margin-top: 35px;}
+.RegisterWrap .center .left .div1 span{width: 75px;color: #666;padding: 0;text-align: center;font-size: 14px;margin:0;}
+.RegisterWrap .center .left .div1 li span.error{position:absolute;left:65px;top:-33px;background: #ebf7e3 url("../img/success.gif") no-repeat scroll 3px center;border: 1px solid #99d073;color: #539a33;
+    display: inline;margin-left: 10px;padding: 2px 5px 2px 21px;text-align: left;width:51px;height:15px;font-size:12px;line-height: 15px;display: none;white-space: nowrap;}
+.RegisterWrap .center .left .div1 li span.valierror{font-size:12px;width:166px; height:15px;position:absolute;left:70px;top:-30px;padding: 0; vertical-align: middle;background: #fceae8 url("../img/stop.gif") no-repeat scroll 3px center;
+border: 1px solid #e6594e;color: #e6594e;display: inline;margin: 0 5px;padding: 3px 5px 3px 21px;text-align: left;white-space: nowrap;line-height: 15px;display: none;}
+.RegisterWrap .center .left .div1 li span.error1{font-size:12px;width:166px; height:15px;position:absolute;left:70px;top:-30px;padding: 0; vertical-align: middle;background: #fceae8 url("../img/stop.gif") no-repeat scroll 3px center;
+border: 1px solid #e6594e;color: #e6594e;display: inline;margin: 0 5px;padding: 3px 5px 3px 21px;text-align: left;white-space: nowrap;line-height: 15px;display: none;}
+.RegisterWrap .center .left .div1 .first1{height: 30px;}
+.RegisterWrap .center .left .div1 .pan span{text-align:right;float: left;  vertical-align: middle;margin-top: 5px;font-size: 14px;}
+.inpt{border: 1px solid #ccc;color: #aaa;padding: 3px 5px;width: 220px;float: left;height: 22px;
+    line-height: 22px;}
+.RegisterWrap .center .left .div1 .first2{padding-top: 15px;height: 30px;} 
+.RegisterWrap .center .left .div1 .last1{padding-top: 15px;height: 30px;} 
+.RegisterWrap .center .left .div1 .last{padding-top: 15px;height: 30px;} 
+.RegisterWrap .center .left .div1 .last .div_test{float: left;text-align:center;width: 50px;height:22px;line-height:22px;background:#f8f8f8;display: block;margin-left: 5px;border: 1px solid #ccc;}
+#iptsingup{border: 1px solid #ccc;color: #aaa;padding: 3px 5px;width: 65px;float: left;height: 22px;
+    line-height: 22px;background-color: #fff;}
+ .RegisterWrap .center .left .div1 .last a{color: #666;margin-top: 5px;display: block;height:22px;line-height: 22px;margin-left: 5px;display: block;width: 50px;float: left;}
+ .RegisterWrap .center .left .div1 .last a:hover{text-decoration: underline;}
+.RegisterWrap .center .left .div1 .last2{color: #777;padding-top: 25px;margin-left: 75px;font-weight: normal;text-align: left;width: auto;} 
+.RegisterWrap .center .left .div1 .last2 a{color: #3366dd;text-decoration:underline;}
+.RegisterWrap .center .left .div1 .last2 a:hover{text-decoration-color:#f00;font-size: 12px;}
+.RegisterWrap .center .left .div1 .last3{padding-top: 10px;margin-left: 75px;} 
+.cart-btn-next06 { background: url("../img/scn04.png") no-repeat scroll 0 -198px;color: #fff; font-weight: bold; height: 38px; text-indent: 0;width: 89px;border: medium none;cursor: pointer;display: inline-block;}
+.RegisterWrap .center .right{width: 272px;height: 409px;text-align: center;float: left;padding: 50px 0 0 0;}
+.RegisterWrap .center .right .div2{border-left: 1px dashed #ccc;height: 300px;}
+.returnlogin { background: url("http://images.s.cn/images/css/loginbg.png"); color: #c66; display: inline-block;font-size: 14px;
+    font-weight: 700;height: 32px;line-height: 30px;text-align: center;width: 91px;}
+.returnlogin {margin-top: 10px;}
+.RegisterWrap .center .right .div2 a:hover{color: #c00;}
+.RegisterWrap .center .right .div2 .ims {padding: 40px 0 0 0;}
+
+/*--------------------foot----------------------------*/
+#foot .wrap{border-top: 2px solid #ce3c3b;margin: 30px auto 0;  padding: 20px 0;
+   font-size: 12px;height: 53px; text-align: center;color: #777;display: block;}
+#foot .wrap span{color:#ccc;font-family: "宋体";height: 27px;}
+#foot .wrap span a{color: #777;font-size: 12px;}
+#foot .wrap a{color: #777}
+#foot .wrap a:hover{color: red;text-decoration: underline;}
+#foot .wrap s{color: #c00;font-size: 20px;font-weight: 700;}

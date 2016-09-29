@@ -1,0 +1,64 @@
+*{ padding:0; margin:0;}
+a{ text-decoration:none;}
+ul,li{ list-style:none;}
+input{ border:0; background:none; }
+img{ border:0;}
+em,i{ font-style:normal;}
+.wrap{margin: 0 auto;width: 990px;}
+body{color: #333;font-size: 12px;}
+.left{float: left;}
+/*--------------------header----------------------------*/
+#header{margin-bottom: 1px; width: 100%; padding: 20px 0;}
+#header .wrap{height: 73px;}
+#header .wrap .logo{height: auto;float: left;padding-top: 10px;width: 427px;}
+/*--------------------AllWrapInside----------------------------*/
+#AllWrapInside .wrap .log{margin: 10px 0;height: 430px;padding:0;border: 0;}
+.log .td{width:100%;cellspacing:0; cellpadding:0; border:0 ;align:center; }
+.log .td1{text-align: center;width: 396px;height: 430px;float: left;display: inline-block; vertical-align: middle;}
+.log .td1 img{margin-top: 22px;}
+.log .td2{text-align: center;width: 594px;height: 430px;float: left;}
+.log .td2 .content{margin: 0 auto;width: 450px;height: 404px;}
+.log .td2 .content h4{text-align: left;}
+.log .td2 .content .div1{height:290px;width:383px;background:#fafafa;border:1px solid #eee;box-shadow:3px 3px #F5F5F5}
+.log .td2 .content .div1 ul{width: 306px;margin: 0 auto;height: 290px;position: relative;}
+.log .td2 .content .div1  span{width: 60px;color: #666;padding: 0;text-align: center;font-size: 14px;margin:0;}
+.log .td2 .content .div1  li span.valierror{font-size:12px;width:166px; height:15px;position:absolute;left:70px;top:-30px;padding: 0; vertical-align: middle;background: #fceae8 url("../img/stop.gif") no-repeat scroll 3px center;
+border: 1px solid #e6594e;color: #e6594e;display: inline;margin: 0 5px;padding: 3px 5px 3px 21px;text-align: left;white-space: nowrap;line-height: 15px;display: none;}
+.log .td2 .content .div1 .pan span{float: left;  vertical-align: middle;margin-top: 5px;}
+#in_login{border: 1px solid #ccc;color: #aaa;padding: 3px 5px;width: 220px;float: left;height: 22px;
+    line-height: 22px;background-color: #fff;}
+#in_passwd{border: 1px solid #ccc;color: #aaa;padding: 3px 5px;width: 220px;float: left;height: 22px;
+    line-height: 22px;background-color: #fff;}
+#iptlogin{border: 1px solid #ccc;color: #aaa;padding: 3px 5px;width: 65px;float: left;height: 22px;
+    line-height: 22px;background-color: #fff;}   
+.log .td2 .content .div1 .first1{height: 30px;margin-top: 30px;}
+.log .td2 .content .div1 .first2{padding-top: 15px;height: 30px;} 
+.log .td2 .content .div1 .last{padding-top: 15px;height: 30px;} 
+.log .td2 .content .div1 .last .div_test{float: left;text-align:center;width: 50px;height:22px;line-height:22px;background:#f8f8f8;display: block;margin-left: 5px;border: 1px solid #ccc;}
+.log .td2 .content .div1 .last a{color:#666;margin-top:5px;display: block;height:22px;line-height: 22px;margin-left: 5px;display: block;width: 50px;float: left;}
+.log .td2 .content .div1 .last a:hover{text-decoration: underline;}
+.log .td2 .content .div1 .last1 a:hover{text-decoration: underline;color:red;cursor: pointer;}
+.log .td2 .content .div1 .last1{padding-top: 20px;margin-left:-23px;height: 38px;} 
+.cart-btn-next05 {background: url("../img/scn04.png") no-repeat scroll 0 -198px;color: #fff;font-weight: bold;height: 38px;text-indent: 0; width: 89px;  padding: 0;margin: 0}
+.actbtn{border: medium none;cursor: pointer;}
+.log .td2 .content .div1 .last1 a{margin-left: 10px;vertical-align: bottom;color: #777;}
+.log .td2 .content .div1 .last2{height: 77px;color:#999;padding:35px 0 25px;}
+.cf60, .cf60 a{color: #f60}
+.lnk { cursor: pointer;text-decoration: underline;}
+.log .td2 .content .div1 .last2 a:hover{text-decoration: underline;color: red;}
+.login_content{width:383px;height: 34px;text-align: left;}
+.login_content .login-descript{border: 0 none;margin: 0;padding: 12px 0 0;clear: both;color: #999;}
+.login-IconList{float: left;text-align: left;}
+.login-IconList li{width:115px;float: left;height: 20px;overflow: visible;padding-top: 5px;position: relative;}
+.mod_cb_jr_pop {background: #fffce6 ;border: 1px solid #f5d682;font-size: 12px;left: 0;padding: 6px 10px 10px;
+  width: 220px;position: absolute;left:0;top:30px;display: none;}
+.mod_cb_jr_pop .pop_title{ line-height: 30px;padding-left: 28px;background: url("http://imgcache.qq.com/vipstyle/act/caibei_110826_tips/img/bg.png") no-repeat scroll left -34px;}
+/*--------------------foot----------------------------*/
+#foot .wrap{border-top: 2px solid #ce3c3b;margin: 30px auto 0;  padding: 20px 0;
+   font-size: 12px;height: 53px; text-align: center;color: #777;display: block;}
+#foot .wrap span{color:#ccc;font-family: "宋体";height: 27px;}
+#foot .wrap span a{color: #777;font-size: 12px;}
+#foot .wrap a{color: #777}
+#foot .wrap a:hover{color: red;text-decoration: underline;}
+#foot .wrap s{color: #c00;font-size: 20px;font-weight: 700;}
+

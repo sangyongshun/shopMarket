@@ -1,0 +1,615 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>【阿迪达斯】</title>
+	<link rel="stylesheet" type="text/css" href="css/adidas.css">
+	<script type="text/javascript" src = "js/jquery-1.10.1.min.js"></script>	
+    <script type="text/javascript" src = "js/ajax.js"></script>
+    <script type="text/javascript" src = "js/nav.js"></script>
+    <script type="text/javascript" src = "js/adidas.js"></script>
+	<script type="text/javascript" src = "js/foot.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+</head>
+<body>
+	<!--**************************top*********************************-->
+	<div id = "top">
+		<img src="http://images.s.cn/images/20160920/dt.jpg">
+	</div>
+
+	<!--**************************header*********************************-->
+	<div id = "header">
+    	<div id = "wrap">
+    	    <div class = "topnav">
+	       		<ul id = "right">
+		        	<li><a class = "submit" href="html/login.html">欢迎登陆名鞋库</a><a  class = "submit register"
+	 				href="html/register.html">免费注册</a></li>
+		            <li class = "a1"><a href = "#">我的名鞋库<span id = "tip"></span></a>
+		            	<div class ="drop">
+		 	            	<ul id = "u1">
+		 	            		<li><a href="#">我的订单</a></li>
+		 	            		<li><a href="#">优惠券</a></li>
+		 	            		<li><a href="#">收货地址</a></li>
+		 	            	</ul>	 	            	
+		 	            	<ul id = "u2">
+		 	            		<li><a href="#">我的积分</a></li>
+		 	            		<li><a href="#">商品收藏</a></li>
+		 	            		<li><a href="#">密码管理</a></li>
+		 	            	</ul>
+		 	            </div>
+		 	        </li>
+		            <li class = "a2"><a href = "#"><span id = "phone"></span>手机名鞋库<span id = "tip"></span></a>
+		            	<div>
+		            	    <ul id = "u3">	
+				            	<li class = "a3"><a href="#"><img src = "img/201410081165.png"></a></li>
+				            	<li><a href="#"><img src = "img/201410081168.png"></a></li>	
+				            </ul>	 
+		            	</div>
+	 	            </li>
+		            <li class = "collection"><a href = "#">收藏名鞋库</a></li>
+		            <li><a href = "#"><span id = "qq"></span>名鞋库客服</a></li>
+		            <li><span id = "contact"></span></li>                
+	        	</ul>
+	        </div>
+        </div>
+    </div> 
+    <!--**************************head*********************************-->
+    <div id = "head">
+    	<div id = "wrap"> 
+	        <a class="logo left" href="#"></a>
+	        	<div class="search left">
+			        <form>
+			        <p class="ser"><input class="txt" type="text" value="朗蒂维" />
+			        <input type="button" class="btn" value="搜索"/></p>
+			        <p class = "hot"><span>热搜 :</span><a href="#">跑步鞋</a><a href="#">帆布鞋</a><a href="#">T恤</a><a href="#">胸衣Bra</a><a href="#">紧身打底裤</a><a href="#">三叶草</a></p>
+			        </form>
+	        	</div>
+	        <a class="car" href="#">购物车<em>0</em>件</a>
+	    </div>
+    </div>  
+	<!--**************************nav*********************************-->
+    <div id = "nav">
+    	<div id = "navbox"> 
+    		<ul>
+    		    <li class = "nav_right">
+    		    	<a href="#">运动小白<i class = "spot"><img src = "img/sport.png"/></i></a>
+				<a href="#">上新区</a>
+				<a href="#">即将告罄</a>
+				<a href="#" class = "last">逢八必杀</a>
+    			</li>
+    			<li class = "nav_left">所有商品分类</li>
+    			<li class = "nav_center">
+    				<a href="index.html" class="first on">首页</a>
+    				<a href="#" class="boy">男子运动</a>
+    				<a href="#" class="girl">女子运动</a>
+    				<a href="#" class="child">儿童</a>
+    				<a href="#" class="shoot">男鞋</a>
+    				<a href="#">户外</a>
+    				<div class = "sport">
+    					<ul id ="q1"></ul>
+    					<ul id ="q2"></ul>
+    					<ul id ="q3"></ul>
+    				</div>
+    				<div class = "clothing">
+    					<ul id ="q4"></ul>
+    					<ul id ="q5"></ul>
+    					<ul id ="q6"></ul>
+    				</div>
+    				<div class = "brand1">
+    					<ul id ="q7"></ul>
+    					<ul id ="q9"></ul>
+    					<ul id ="q10"></ul>
+    					<ul id ="q8"></ul>
+    				</div>
+    			</li>
+    			
+    		</ul>
+    	</div>
+    </div>
+    <!--**************************nan*********************************-->
+   <div id="nan">
+     	<div id= "wrap">
+    	    <ul id = "n1"></ul>
+    	    	<div class ="shoes">
+    	    		<div>
+    	    			<h3 class = "runShoes boyShoes">
+    	    				<a href = "#">运动男鞋</a>
+    	    				<a href = "#" class = "more">更多</a>
+    	    			</h3>
+    	    			<p class = "p1"></p>
+    	    		</div>
+    	    		<div>
+    	    			<h3 class = "runShoes girlShoes">
+    	    				<a href = "#">运动女鞋</a>
+    	    				<a href = "#" class = "more">更多</a>
+    	    			</h3>
+    	    			<p class = "p2"></p>
+    	    		</div>
+    	    		<div>
+    	    			<h3 class = "runShoes search">
+    	    				<a href = "#">搜索热词</a>
+    	    			</h3>
+    	    			<p class = "p3"></p>
+    	    		</div>
+    	    		<div>
+    	    			<h3 class = "runShoes hot">
+    	    				<a href = "#">热门系列</a>
+    	    			</h3>
+    	    			<p class = "p4"></p>
+    	    		</div>
+    	    	</div>
+    	    	<div class ="wear">
+    	    		<div>
+    	    			<h3 class = "runWear boyWear">
+    	    				<a href = "#">男子运动服</a>
+    	    				<a href = "#" class = "more">更多</a>
+    	    			</h3>
+    	    			<p class = "p5"></p>
+    	    		</div>
+    	    		<div>
+    	    			<h3 class = "runWear girlWear">
+    	    				<a href = "#">女子运动服</a>
+    	    				<a href = "#" class = "more">更多</a>
+    	    			</h3>
+    	    			<p class = "p6"></p>
+    	    		</div>
+    	    		<div>
+    	    			<h3 class = "runWear search">
+    	    				<a href = "#">热门搜索</a>
+    	    			</h3>
+    	    			<p class = "p7"></p>
+    	    		</div>
+    	    	</div>
+    	    	<div class ="run">
+    	    		<div>
+    	    			<h3 class = "runrun boyRun">
+    	    				<a href = "#">运动男鞋</a>
+    	    				<a href = "#" class = "more">更多</a>
+    	    			</h3>
+    	    			<p class = "p8"></p>
+    	    		</div>
+    	    		<div>
+    	    			<h3 class = "runrun girlRun">
+    	    				<a href = "#">运动女鞋</a>
+    	    				<a href = "#" class = "more">更多</a>
+    	    			</h3>
+    	    			<p class = "p9"></p>
+    	    		</div>
+    	    		<div>
+    	    			<h3 class = "runrun search">
+    	    				<a href = "#">搜索热词</a>
+    	    			</h3>
+    	    			<p class = "p10"></p>
+    	    		</div>
+    	    		<div>
+    	    			<h3 class = "runrun hot">
+    	    				<a href = "#">热门系列</a>
+    	    			</h3>
+    	    			<p class = "p11"></p>
+    	    		</div>
+    	    	</div>
+    	    	<div class ="basketball">
+    	    		<div>
+    	    			<h3 class = "basket boyBasket">
+    	    				<a href = "#">篮球</a>
+    	    				<a href = "#" class = "more">更多</a>
+    	    			</h3>
+    	    			<p class = "z"></p>
+    	    		</div>
+    	    		<div>
+    	    			<h3 class = "basket star">
+    	    				<a href = "#">明星系列</a>
+    	    			</h3>
+    	    			<p class = "z1"></p>
+    	    		</div>
+    	    		<div>
+    	    			<h3 class = "basket search">
+    	    				<a href = "#">热搜品牌</a>
+    	    			</h3>
+    	    			<p class = "z2"></p>
+    	    		</div>
+    	    	</div>
+    	    	<div class ="football">
+    	    		<div>
+    	    			<h3 class = "foot boyFoot">
+    	    				<a href = "#">足球</a>
+    	    				<a href = "#" class = "more">更多</a>
+    	    			</h3>
+    	    			<p class = "z3"></p>
+    	    		</div>
+    	    		<div>
+    	    			<h3 class = "foot star">
+    	    				<a href = "#">系列</a>
+    	    			</h3>
+    	    			<p class = "z4"></p>
+    	    		</div>
+    	    		<div>
+    	    			<h3 class = "foot studs">
+    	    				<a href = "#">鞋钉</a>
+    	    			</h3>
+    	    			<p class = "z5"></p>
+    	    		</div>
+    	    		<div>
+    	    			<h3 class = "foot search">
+    	    				<a href = "#">热搜品牌</a>
+    	    			</h3>
+    	    			<p class = "z6"></p>
+    	    		</div>
+    	    	</div> 
+    	    	<div class = "bag">
+    	    		<div>
+    	    			<h3 class = "bagbag bagB">
+    	    				<a href = "#">包包</a>
+    	    				<a href = "#" class = "more">更多</a>
+    	    			</h3>
+    	    			<p class = "z7"></p>
+    	    		</div>
+    	    		<div>
+    	    			<h3 class = "bagbag parts">
+    	    				<a href = "#">配件</a>
+    	    			</h3>
+    	    			<p class = "z8"></p>
+    	    		</div>
+    	    		<div>
+    	    			<h3 class = "bagbag studs">
+    	    				<a href = "#">热搜品牌</a>
+    	    			</h3>
+    	    			<p class = "z9"></p>
+    	    		</div>
+    	    		<div>
+    	    			<h3 class = "bagbag search">
+    	    				<a href = "#">搜索热词</a>
+    	    			</h3>
+    	    			<p class = "z10"></p>
+    	    		</div>
+    	    	</div>
+    	    	<div class = "outdoor">
+    	    		<div>
+    	    			<h3 class = "out outShoes">
+    	    				<a href = "#">户外鞋</a>
+    	    				<a href = "#" class = "more">更多</a>
+    	    			</h3>
+    	    			<p class = "z11"></p>
+    	    		</div>
+    	    		<div>
+    	    			<h3 class = "out outWear">
+    	    				<a href = "out#">户外服</a>
+    	    				<a href = "#" class = "more">更多</a>
+    	    			</h3>
+    	    			<p class = "z12"></p>
+    	    		</div>
+    	    		<div>
+    	    			<h3 class = "out outstuds">
+    	    				<a href = "#">户外配件</a>
+    	    				<a href = "#" class = "more">更多</a>
+    	    			</h3>
+    	    			<p class = "z13"></p>
+    	    		</div>
+    	    		<div>
+    	    			<h3 class = "out search">
+    	    				<a href = "#">热搜品牌</a>
+    	    			</h3>
+    	    			<p class = "z14"></p>
+    	    		</div>
+    	    	</div>
+    	    </div>
+    	</div>
+        <!--**************************Navigation*********************************-->
+    	<div id = "Navigation">
+    		<div id = "wrap">
+    			<div class = "up">您当前的位置： 名鞋库 » 运动鞋子 » 休闲鞋 » 阿迪达斯 » 阿迪达斯鞋子 » 阿迪达斯 AW5079</div>
+        		<div class = "left">
+        			<div class = "goods-detail-pic"> </div>
+        			<div class = "pics"></div>
+        			<div class = "share">
+        			    <span>分享到：</span>
+        			    <a href="#" class="sina"></a>
+        				<a href="#" class="renren"></a>
+        				<a href="#" class="kaixin"></a>
+        				<a href="#" class="douban"></a>
+        				<a href="#" class="qzone"></a>
+        				<a href="#" class="ten"> </a>      			
+        			</div>
+        		</div>
+        		<div class = "right">
+        			<div class ="goodnamewarp clfix" >
+        				<span class="morebrand">更多
+							<a id="pro_view_more" href="http://www.s.cn/adidas-brand.html">阿迪达斯</a>
+						</span>
+						<h1 class="goodsname">adidas阿迪达斯男鞋休闲鞋2016新款板鞋运动鞋AW5079 QJ</h1>
+						<div class="sp"></div>
+					</div>	
+					<ul class="goods-price list">
+						<li><span>吊  牌  价：</span><del class="mktprice price_com">￥469.00 </del></li>
+						<li><span> 销  售  价： </span><span class="price1 salePrice_big"> ￥349.00</span>( 7.4折 )  
+						<span class="discount price_com">立省： ￥120.00 </span>
+						</li>
+						<li>好  评  度：  <span class="comCountBar"><i style="width:100%"></i></span>
+						  5分   (
+						<a class="comCount" href="#commentTips">已有4人评论</a>
+						)
+						</li>
+						<li>运        费：  名鞋库会员全场满399免邮  ( 不包括货到付款 ) </li>
+					</ul>
+					<div class = "hightline">
+						<div class = "size">
+						    <div class = "si">
+								<span><em class="min-w">尺码</em>：</span>
+							</div> 	
+							<div class="si1">
+								<ul>
+								    <li><a href="#"><span class="on"><b>40</b></span></a></li>
+								    <li><a href="#"><span><b>41</b></span></a></li>
+								    <li><a href="#"><span><b>42</b></span></a></li>
+								    <li><a href="#"><span><b>43</b></span></a></li>
+								    <li><a href="#"><span><b>44</b></span></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="color">
+						    <div class = "co">
+								<span><em class="min-w check">颜色</em>：</span>
+							</div>
+							<div class="co1">
+							<ul>
+								<li><a href="#" class="selected"><img src="http://images.s.cn/images/20160630/bb8eea00ba7ebd1b.jpg"><i></i></a></li>
+								<li><a href="#"><img src="http://images.s.cn/images/20160419/94cf38f799f32f00.jpg"><i></i></a></li>
+							</ul>
+							</div>
+						</div>
+						<div class="count">
+							<div class = "cot">
+								<span><em class="min-w ">购买数量</em>：</span>
+							</div>
+							<div class="cot1">
+							<ul>
+								<span class="numadjust decrease "></span>
+								<input  size="5" value="1" type="text" class="ino">
+								<span class="numadjust increase "></span>
+							</ul>
+							</div>
+						</div>
+
+					</div>
+					<div class="sp"></div>	
+					<div class="btnBar">
+						<span id="goods_ck_info" style="width:200px">
+							<span class="spec-tip">
+							您将购买
+							<span class="c_cm"></span>
+							<span class="buynums">1</span>
+							件  
+							<span class="buyCm"></span>
+							码  亚银+行动红+白
+							</span>
+						</span>
+						<div class="btnsBox">
+							<input class="actbtn btn-buy cart_login " value="加入购物车" type="submit">
+							<input class="actbtn btn-fastbuy " value="立即购买"  type="button">
+						</div>
+					</div>
+					<div class="sp"></div>	
+					<div class="scn_baozheng server">
+						<i>   名鞋库客服：</i>
+						<span class="scn_p_linee">销售：</span>
+						<span class="scn_p_p">
+						<img id="pro_view_kf_0"  src="http://images.s.cn/themes/scn2010/images/10_online.gif" >
+						</span>
+						<span class="scn_p_p1">销售：</span>
+						<span class="scn_p_p">
+						<img id="pro_view_kf_1"  src="http://images.s.cn/themes/scn2010/images/10_online.gif" >
+						</span>
+					</div>
+					<div class="scn_baozheng1">
+						<i>名鞋库保障：</i>
+						<img src="http://images.s.cn/statics/zheng.png">
+						 正品认证    
+						<img src="http://images.s.cn/statics/tui.png">
+						 自由退货    
+						<img src="http://images.s.cn/statics/mian.png">
+						 全场满399免邮
+					</div>
+				</div>
+    		</div>
+    	</div>
+       <!--  右边的菜单栏 -->
+        <div class="outer">
+            <div class="tabs">
+                <div id="tdtv_tit" class="tabs-mask">
+                    <div class="tabs-top-wide on">
+                        <div class="tab-logo tab-logo-hot "></div>
+                        <div class="tab-txt">热门活动</div>
+                    </div>
+                    <div class="tab tab-brand">
+                        <div class="tab-logo tab-logo-brand "></div>
+                        <div class="tab-txt">品牌分类</div>
+                    </div>
+                    <div id="CartList" class="tab  tab-cart">
+                        <div class="tab-logo tab-logo-cart "></div>
+                        <div class="tab-cart-border"></div>
+                        <div class="tab-tip">
+                            购物车
+                            <div class="arr">◆</div>
+                        </div>
+                    </div>
+                    <div id="Member_info_list" class="tab  tab-order">
+                        <div class="tab-logo tab-logo-order "></div>
+                        <div class="tab-tip">
+                            我的订单
+                            <div class="arr">◆</div>
+                        </div>
+                    </div>
+                    <div class="tab tab-kefu">
+                        <div class="tab-logo tab-logo-kefu"></div>
+                        <div class="tab-tip">
+                            联系客服
+                            <div class="arr">◆</div>
+                        </div>
+                    </div>
+                    <div id="FavList" class=" tab  tab-favor">
+                        <div class="tab-logo tab-logo-favor"></div>
+                        <div class="tab-tip1">
+                            我的收藏
+                            <div class="arr">◆</div>
+                        </div>
+                    </div>
+                    <div class="tab  tab-share">
+                        <div class="tab-logo tab-logo-share"></div>
+                    </div>
+                </div>    
+            </div>        
+        <!-- 点击出来弹框 -->	
+        <div id="tdtv_tab" class="plugins">
+            <div class="mcListInner">
+                <div class="mcList">
+                    <div class="mcTop">
+                        <a class="mcCartBtn" href="http://www.s.cn/cart-index.html" title="全屏查看">全屏查看</a>
+                    </div>
+                    <div class="mcBundle mcBundleC">
+                    </div>    
+                    <div class="mcHandler">
+                        <div class="mcCashier-wrap">
+                            <div id="cartTotal" class="mcTotal clearfix">
+                                <h3>
+                                    <span class="tm-e2">已选</span>
+                                    <strong class="mcCheckedNum">0</strong>
+                                    <span class="tm-e2">件</span>
+                                </h3>
+                                    <span class="mcTotalFeeWrap">
+                                    <strong class="mcTotalFee">￥0.00</strong>
+                                    </span>
+                            </div>
+                            <p class="rbarp-favor-see-more mcGo">
+                                <a class="fixpng" target="_blank" href="http://www.s.cn/cart-checkout.html">结算</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+        <!-- 展示区 -->
+        <!-- ******************************** show ***************************************-->
+        <div id = "show">
+            <div id="wrap">
+                <div class="goods-detail-tab clearfix">
+                    <div class="goodsDetailTab active"><span>商品详情</span></div>
+                    <div class="goodsDetailTab"><span>顾客评论 (<em>4</em>)</span></div>
+                    <div class="goodsDetailTab "><span>总销量(<span style="color:red;">104</span>)</span></div>
+                    <div class="goodsDetailTab"><span>购买咨询(<em>1</em>)</span></div>
+                    <div class="goodsDetailTab"><span>购物保障</span></div>
+                    <div class="goodsDetailTab"><span>放心退换货</span></div>
+                    <div class="goodsDetailTab"><span>常见问题</span></div>
+                </div>
+                <div class="section pdtdetail">
+                    <div class="proshow-canshu">
+                        <ul class="goodsprops clearfix" >
+                            <li><span>商品重量：</span><span id="goodsWeight">730.000</span>克(g)</li>
+                            <li><span>货号：</span><span id="goodsBn"> 阿迪达斯AW5079 </span></li>
+                            <li><span>品　　牌：</span>adidas</li>
+                            <li><span>配色：</span>1号黑色/亮白/树脂褐</li>
+                            <li><span>款式：</span>休闲鞋</li>
+                            <li><span>帮面材质：</span>织物</li>
+                            <li><span>性别：</span>男</li>
+                            <li><span>大底材质：</span>橡胶</li>
+                            <li><span>价格区间：</span>300-399元</li>
+                            <li><span>试穿建议：</span>正常码购买</li>
+                            <li><span>包装情况：</span>无挂牌</li>
+                            <li><span>产地：</span>越南</li>
+                            <li> <span>鞋名：</span>GVP</li>
+                            <li><span>适合：</span>硬地</li> 
+                         </ul> 
+                    </div>
+
+                    <a href="http://www.s.cn/page-0923dongqilai.html" target="_blank">
+                        <img src="http://images.s.cn/images/20160923/erci.jpg">
+                    </a>
+                    <div id="goods-intro" class="body indent uarea-output">
+                        <div class="en">
+                            <div class="cn">
+                                <img src="http://images.s.cn/images/20160816/fee389fe6da162a9.jpg">
+                                <img src="http://images.s.cn/images/20160816/b4fcd8bdf6596946.jpg">
+                                <img src="http://images.s.cn/images/20160816/c4c2ca47053b2ffa.jpg">
+                                <img src="http://images.s.cn/images/20160816/247a298ca3f2fe7b.jpg">
+                                <img src="http://images.s.cn/images/20160816/58860c6a00907470.jpg">
+                                <img src="http://images.s.cn/images/20160816/be0a7e532d1da373.jpg">
+                                <img src="http://images.s.cn/images/20160816/a9b035e46241f13d.jpg">
+                                <img src="http://images.s.cn/images/20160816/12183add25d1d87d.jpg">
+                                <img src="http://images.s.cn/images/20160816/b10c872394245221.jpg">
+                             </div>
+                        </div>
+                    </div>
+                </div>               
+            </div>            
+        </div> 
+
+        <!--**************************footB*********************************-->
+        <div id = "footB">
+        <div id = "wrap">
+            <div class="footBrand">
+                <a class="nike" href = "#"><span></span></a>
+                <a class="adidas" href = "#"><span></span></a>
+                <a class="syc" href = "#"><span></span></a>
+                <a class="neo" href = "#"><span></span></a>
+                <a class="nb" href = "#"><span></span></a>
+                <a class="converse" href = "#"><span></span></a>
+                <a class="skq" href = "#"><span></span></a>
+                <a class="puma" href = "#"><span></span></a>
+                <a class="reebok" href = "#"><span></span></a>
+                <a class="asics last" href = "#"><span></span></a>
+                <a class="kappa" href = "#"><span></span></a>
+                <a class="anta" href = "#"><span></span></a>
+                <a class="linging" href = "#"><span></span></a>
+                <a class="vans" href = "#"><span></span></a>
+                <a class="troead" href = "#"><span></span></a>
+                <a class="lantivy" href = "#"><span></span></a>
+                <a class="dc" href = "#"><span></span></a>  
+                <a class="nike_tx" href = "#"><span></span></a>
+                <a class="adsics_tx" href = "#"><span></span></a>
+                <a class="disney last" href = "#"><span></span></a>
+            </div>
+        </div>
+   </div>
+   <!--**************************foow*********************************-->
+     <div id = "foow">
+            <div id="warp">
+                <a href="#top" target="_blank">
+                    <img src="http://images.s.cn/images/2012/1024/foot-goto-i.jpg">
+                </a>
+            </div>
+    </div>
+    <!--**************************footC*********************************-->
+    <div id = "footC">
+        <div id = "wrap">
+            <div class = "ewm">
+                <img src="http://images.s.cn/images/css/2014052815001.png"/>
+            </div>
+            <ul class= "ftli"></ul>
+        </div>
+    </div>
+   
+    <!--**************************footD*********************************-->
+    <div id = "footD">
+        <div id = "wrap">
+            <span>
+                <a href="#">关于名鞋库</a> | 
+                <a href="#">名鞋库资讯</a> | 
+                <a href="#">联系名鞋库</a> | 
+                <a href="#">人才招聘</a> | 
+                <a href="#">免责条款 </a> | 
+                <a href="#">法律声明</a> | 
+                <a href="#">意见反馈</a> | 
+                <a href="#">全部分类 </a> | 
+                <a href="#">友情链接</a> | 
+                <a href="#">鞋码对照表</a> | 
+                <a href="#">问答</a><a href="#">咨询</a><a href="#">标签</a><a href="#">主题</a> | 
+                <a href="#">鞋子品牌大全</a> | 
+                <a href="#">商品大全</a>    
+            </span>
+            Copyright © 2008-2014<s>s.cn</s><a href="#">名鞋库</a>All Rights Reserved.    
+            <a href="#">闽ICP备08106896号</a>经营许可证闽B2-20110061    
+            <a href="#"><img src="http://images.s.cn/images/css/20160617.png">闽公网安备 35020602000166号</a>
+        </div>
+    </div>          
+</body>
+</html>
